@@ -7,25 +7,26 @@ using UnityEngine.UI;
 public class Scenario : ScriptableObject
 {
     [SerializeField]
-    private Image scenarioImage;
+    private Sprite scenarioImage;
     [SerializeField]
     private string scenarioDescription;
     [SerializeField]
-    private List<Options> dialogueOptions;
-    [SerializeField]
-    private bool isBranching = true;
+    private List<Option> dialogueOptions;
 
-    public Image ScenarioImage => scenarioImage;
+    public Sprite ScenarioImage => scenarioImage;
     public string ScenarioDescription => scenarioDescription;
-    public bool IsBranching => isBranching;
+    public List<Option> DialogueOptions => dialogueOptions;
 
     [Serializable]
-    private class Options
+    public class Option
     {
         [SerializeField]
-        private string dialogueOption;
+        private string dialogueOptionText;
         [SerializeField]
         private Scenario branch;
+
+        public string DialogueOptionText => dialogueOptionText;
+        public Scenario Branch => branch;
     }
 
     [Serializable]
