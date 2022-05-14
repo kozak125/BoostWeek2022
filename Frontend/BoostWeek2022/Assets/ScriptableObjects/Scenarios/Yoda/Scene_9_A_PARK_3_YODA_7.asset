@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: Scene_9_A_PARK_3_YODA_7
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 0}
+  scenarioDescription: CJ, there is another Dre- Dream... Pass on what you have learned
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: What do you mean?
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Pass me the beer, I'll pass what I've learned, Master Yoda
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: May the Los Santos be with you
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Wtf? I'm so drunk that I'm literally seeing Yoda right now
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
+  isEnding: 0
