@@ -16,5 +16,7 @@ public class MessageBroker
         }
     }
 
-    public Action LifeLost;
+    public Action OnLifeLost;
+    public Action OnScenarioVisited;
+    public Action<ScenarioDefinition.Option> OnDialogueOptionClicked;
 }

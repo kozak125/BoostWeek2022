@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,7 +7,7 @@ public class ScenarioManager : MonoBehaviour
     [SerializeField]
     private ScenarioPicker scenarioPicker;
     [SerializeField]
-    private Scenario startingScenario;
+    private ScenarioDefinition startingScenario;
     [SerializeField]
     private Image scenarioImage;
     [SerializeField]
@@ -19,7 +17,7 @@ public class ScenarioManager : MonoBehaviour
     [SerializeField]
     private GameObject optionButtonsParent;
 
-    private Scenario currentScenario;
+    private ScenarioDefinition currentScenario;
 
     private void Awake()
     {
@@ -27,14 +25,15 @@ public class ScenarioManager : MonoBehaviour
     }
 
 
-    private void ChangeScenario(Scenario newScenario)
+    private void ChangeScenario(ScenarioDefinition newScenario)
     {
         ClearPreviousScenario();
         currentScenario = newScenario;
         SetScenario(newScenario);
+        MessageBroker.Instance.OnScenarioVisited?.Invoke();
         if (currentScenario.IsEnding)
         {
-            MessageBroker.Instance.LifeLost.Invoke();
+            MessageBroker.Instance.OnLifeLost?.Invoke();
         }
     }
 
@@ -46,7 +45,7 @@ public class ScenarioManager : MonoBehaviour
         }
     }
 
-    private void SetScenario(Scenario newScenario)
+    private void SetScenario(ScenarioDefinition newScenario)
     {
         scenarioImage.sprite = newScenario.ScenarioImage;
         scenarioDescription.text = newScenario.ScenarioDescription;
@@ -54,12 +53,12 @@ public class ScenarioManager : MonoBehaviour
         foreach (var button in newScenario.DialogueOptions)
         {
             dialogueButton = Instantiate(scenarioOptionButton, optionButtonsParent.transform);
+            dialogueButton.GetComponent<DialogueButton>().Setup(button);
             dialogueButton.GetComponent<Button>().onClick.AddListener(() => PickNewScenario(button));
-            dialogueButton.GetComponentInChildren<TMP_Text>().text = button.DialogueOptionText;
         }
     }
 
-    private void PickNewScenario(Scenario.Option option)
+    private void PickNewScenario(ScenarioDefinition.Option option)
     {
         var chosenScenario = scenarioPicker.PickScenario(option);
         ChangeScenario(chosenScenario);

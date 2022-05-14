@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ScenarioPicker : MonoBehaviour
 {
-    public Scenario PickScenario(Scenario.Option optionsForScenario)
+    public ScenarioDefinition PickScenario(ScenarioDefinition.Option optionsForScenario)
     {
         if (optionsForScenario.ConditionalBranches.Count == 0)
         {
@@ -14,9 +14,9 @@ public class ScenarioPicker : MonoBehaviour
         return StartConditionalScenarioOrDefault(optionsForScenario);
     }
 
-    private Scenario StartConditionalScenarioOrDefault(Scenario.Option options)
+    private ScenarioDefinition StartConditionalScenarioOrDefault(ScenarioDefinition.Option options)
     {
-        Scenario scenario;
+        ScenarioDefinition scenario;
         foreach (var branch in options.ConditionalBranches)
         {
             scenario = TryStartConditionalScenario(branch);
@@ -29,7 +29,7 @@ public class ScenarioPicker : MonoBehaviour
         return options.DefaultScenario;
     }
 
-    private Scenario TryStartConditionalScenario(Scenario.ConditionalBranching conditionalBranch)
+    private ScenarioDefinition TryStartConditionalScenario(ScenarioDefinition.ConditionalBranching conditionalBranch)
     {
         if (conditionalBranch.ConditionForBranch.Value >= conditionalBranch.MinimalViableValue && conditionalBranch.ConditionForBranch.Value < conditionalBranch.MaxViableValue)
         {

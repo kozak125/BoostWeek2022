@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: ScreenVisitedStart
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 21300000, guid: ed8d4c6f02617b24496678f0545d71b5, type: 3}
+  scenarioDescription: Have you visited credits yet?
+  dialogueOptions:
+  - dialogueOptionText: Yes
+    defaulScenario: {fileID: 11400000, guid: 10eb339f21843a24e8e90db46f68c79b, type: 2}
+    conditionalBranches:
+    - branch: {fileID: 11400000, guid: 42aa87211a46b4b47b7442e33a4ea355, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 0e43bd08d70931c4e91cc48aa9549ca1,
+        type: 2}
+      minimalViableValue: 1
+      maxViableValue: 9999
+      onlyCheckCondition: 1
+  - dialogueOptionText: No
+    defaulScenario: {fileID: 11400000, guid: 9db22671e6b38474980b5b23b797807c, type: 2}
+    conditionalBranches:
+    - branch: {fileID: 11400000, guid: 9d81f71140350d5439bb8a323f0814c7, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 0e43bd08d70931c4e91cc48aa9549ca1,
+        type: 2}
+      minimalViableValue: 1
+      maxViableValue: 9999
+      onlyCheckCondition: 1
+  - dialogueOptionText: I will visit now
+    defaulScenario: {fileID: 11400000, guid: 4d83f5a0e4c9c4a46b722fed9b67d4a1, type: 2}
+    conditionalBranches: []
+  isEnding: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 [CreateAssetMenu(menuName = "Scenario")]
-public class Scenario : ScriptableObject
+public class ScenarioDefinition : ScriptableObject
 {
     [SerializeField]
     private Sprite scenarioImage;
@@ -26,12 +26,12 @@ public class Scenario : ScriptableObject
         [SerializeField]
         private string dialogueOptionText;
         [SerializeField]
-        private Scenario defaulScenario;
+        private ScenarioDefinition defaulScenario;
         [SerializeField]
         private List<ConditionalBranching> conditionalBranches;
 
         public string DialogueOptionText => dialogueOptionText;
-        public Scenario DefaultScenario => defaulScenario;
+        public ScenarioDefinition DefaultScenario => defaulScenario;
         public List<ConditionalBranching> ConditionalBranches => conditionalBranches;
     }
 
@@ -39,17 +39,20 @@ public class Scenario : ScriptableObject
     public class ConditionalBranching
     {
         [SerializeField]
-        private Scenario branch;
+        private ScenarioDefinition branch;
         [SerializeField]
         private IntegerCondition conditionForBranch;
         [SerializeField]
         private int minimalViableValue;
         [SerializeField]
         private int maxViableValue;
+        [SerializeField]
+        private bool onlyCheckCondition;
 
-        public Scenario Branch => branch;
+        public ScenarioDefinition Branch => branch;
         public IntegerCondition ConditionForBranch => conditionForBranch;
         public int MinimalViableValue => minimalViableValue;
         public int MaxViableValue => maxViableValue;
+        public bool OnlyCheckCondition => onlyCheckCondition;
     }
 }

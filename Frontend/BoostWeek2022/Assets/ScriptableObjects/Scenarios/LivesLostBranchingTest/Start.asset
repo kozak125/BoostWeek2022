@@ -23,11 +23,13 @@ MonoBehaviour:
         type: 2}
       minimalViableValue: 1
       maxViableValue: 2
+      onlyCheckCondition: 0
     - branch: {fileID: 11400000, guid: 0ddcfa003e9f40b418eaf9bb631520d5, type: 2}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
         type: 2}
       minimalViableValue: 2
       maxViableValue: 9999
+      onlyCheckCondition: 0
   - dialogueOptionText: You had one job!
     defaulScenario: {fileID: 11400000, guid: aa7c091e57592a744ac5e08a81804112, type: 2}
     conditionalBranches: []

@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3348880513420069201}
   - component: {fileID: 2727495518720548495}
   - component: {fileID: 5565744722727640225}
+  - component: {fileID: 2660266630219131423}
   m_Layer: 5
-  m_Name: Button
+  m_Name: DialogueOptionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,6 +91,19 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2660266630219131423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538188673053920987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b50ec62f7aa1d4b4caa62737c1d5ea74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonText: {fileID: 3856211832075249423}
 --- !u!1 &4689829714678123340
 GameObject:
   m_ObjectHideFlags: 0
