@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: "Scene_3_A_Groove_Street_Granny_Napad_Ballas\xF3w_6"
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: da78a92734c144c4ca944f504b5113ff, type: 3}
+  scenarioImage: {fileID: 21300000, guid: a447a1c278b897a48a1d72ce4ba5ce1f, type: 3}
   scenarioDescription: '[Gunshots in the backgroud] Pew pew!'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
