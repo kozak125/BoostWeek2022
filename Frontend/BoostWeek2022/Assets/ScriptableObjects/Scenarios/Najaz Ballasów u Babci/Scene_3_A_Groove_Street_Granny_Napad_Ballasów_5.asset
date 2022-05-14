@@ -10,23 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_5_A_Bar_Catalina_F
+  m_Name: "Scene_3_A_Groove_Street_Granny_Napad_Ballas\xF3w_5"
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
-  scenarioDescription: '[Catalina] Lucky you! There is only but one thing muchacho
-    that you have to do for me.\n[CJ to himself] Ahhh shieeet....\n[Catalina] You
-    must choose either me or your funny little gangsta thing. I canno''t risk our
-    baby will be raised amongst a bandit!'
+  scenarioImage: {fileID: 21300000, guid: 5c2e564a3469cfb42909a90c1dc8f379, type: 3}
+  scenarioDescription: It's time to teach those Ballas a proper respect!
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: You mean Big Smoke? Hell no! Mates over dates - no way I'm
-      gonna...
+  - dialogueOptionText: Hide behind the corner and plug your ears
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Ok baby, I will commit for our common cause.
+  - dialogueOptionText: Take the Winchester and tell Granny to hide
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000}
+    defaulScenario: {fileID: 11400000, guid: 3bac55c81b1ebc24cb135f3d557066c1, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

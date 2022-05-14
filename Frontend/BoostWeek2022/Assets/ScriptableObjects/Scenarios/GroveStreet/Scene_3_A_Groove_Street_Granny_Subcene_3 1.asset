@@ -15,10 +15,12 @@ MonoBehaviour:
   scenarioImage: {fileID: 21300000, guid: d7ba3c703c226954cb47226ef71fc880, type: 3}
   scenarioDescription: Damn you sneaky little bastard! Get outta here or you will
     regret leavin the hospital bed!
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: '"Sorry ma! I thought you wouldn''t notice!" Apologize, give
       your badass grandma a hug, go out quickly and don''t look back'
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: c4a879027cb17f845b1141477a787755, type: 2}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -26,4 +28,5 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 5
       onlyCheckCondition: 0
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

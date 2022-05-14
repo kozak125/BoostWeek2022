@@ -10,23 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_5_A_Bar_Catalina_F
+  m_Name: Scene_5_A_Bar_Big_Smoke_3
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
-  scenarioDescription: '[Catalina] Lucky you! There is only but one thing muchacho
-    that you have to do for me.\n[CJ to himself] Ahhh shieeet....\n[Catalina] You
-    must choose either me or your funny little gangsta thing. I canno''t risk our
-    baby will be raised amongst a bandit!'
+  scenarioDescription: '[Big Smoke] So... How are you mate?'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: You mean Big Smoke? Hell no! Mates over dates - no way I'm
-      gonna...
+  - dialogueOptionText: Tell Smoke that Catalina is single since today and drink
+      more shots.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 9c1df3fba598f39468411e9ed877300b, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Ok baby, I will commit for our common cause.
+  - dialogueOptionText: Pour the glass over Big Smoke's face and say that your'e
+      done with him.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000}
+    defaulScenario: {fileID: 11400000, guid: 3ea64bf728be51349955d90537480f8e, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

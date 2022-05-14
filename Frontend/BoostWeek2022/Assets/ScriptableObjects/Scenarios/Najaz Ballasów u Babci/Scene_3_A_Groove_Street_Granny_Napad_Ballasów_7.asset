@@ -10,22 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_3_A_Groove_Street_Granny_Subcene_4
+  m_Name: "Scene_3_A_Groove_Street_Granny_Napad_Ballas\xF3w_7"
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: d7ba3c703c226954cb47226ef71fc880, type: 3}
-  scenarioDescription: Aww come here my lovely boy! And have a little snack from!
+  scenarioDescription: Thank you darling! I knew I could count on you.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: '"Damn ma! That''s the stuff!" Enjoy pierogi, give your badass
-      grandma a hug and go out'
+  - dialogueOptionText: No problem Granny, I'm gonna go take a walk now
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 759fb6530b668b644849e410eee2dab7, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Always glad to beat the hell our from those Ballas! See you
+      later!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 7f49a6c987ef49d46bca0576e6cdd95f, type: 2}
-    conditionalBranches:
-    - branch: {fileID: 0}
-      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
-        type: 2}
-      minimalViableValue: 1
-      maxViableValue: 5
-      onlyCheckCondition: 0
+    conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
