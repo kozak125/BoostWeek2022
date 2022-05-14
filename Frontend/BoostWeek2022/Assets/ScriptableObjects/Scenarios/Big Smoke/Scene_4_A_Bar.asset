@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_4_A_Bar
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 139269d6a9185334883f0e10ea9c9b7d, type: 3}
   scenarioDescription: The bar is almost empty. There's a barman together with Big
     Smoke next to him. There's also a nice looking girl playing billard. Also, there's
     a mysterious gentleman in the bar's corner.
