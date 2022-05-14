@@ -13,21 +13,27 @@ MonoBehaviour:
   m_Name: Komisariat 1
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: ec97c6016baa79b4cadd50c58517cada, type: 3}
-  scenarioDescription: '[Police officer]Sir, i''m asking: What is wrong with all
+  scenarioDescription: '[Police officer]Sir! i''m asking: What is wrong with all
     of You, "wannabe ganstas" ? That bike is worth more than all your bitch ass Grove
     street crew. It ain''t shit, for real!'
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Grove street for life, homie! I'll kick your ass, bro!
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 69f53ce793f75c440825fd333bc4c4a5, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Yeah, yeah, I know, officer! Imma just a piece of crap. Pls,
       just let me go!
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Listen. I'll give ya 5 dollars, just shut up, maaan.
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 66371aad4445bb941a9a9f01ddcd29fb, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Kill yourself in front of the officer
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
