@@ -934,7 +934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenarioPicker: {fileID: 2004597620}
-  startingScenario: {fileID: 11400000, guid: 40bded1b29e6fb34084ad858b6430f47, type: 2}
+  startingScenario: {fileID: 11400000, guid: cab35cb34aa8f874b8e1552ec0479233, type: 2}
   scenarioImage: {fileID: 1112933515}
   scenarioDescription: {fileID: 1854616760}
   scenarioOptionButton: {fileID: 1538188673053920987, guid: 425d5fbd651d2bb46a203fef3e4cec18,
