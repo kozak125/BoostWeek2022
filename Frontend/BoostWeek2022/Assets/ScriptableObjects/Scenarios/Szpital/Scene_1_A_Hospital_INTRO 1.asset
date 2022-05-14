@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_1_A_Hospital_INTRO 1
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
-  scenarioDescription: Aiiight, what's next?.
+  scenarioDescription: Aiiight, what's next?
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Go back to sleep
