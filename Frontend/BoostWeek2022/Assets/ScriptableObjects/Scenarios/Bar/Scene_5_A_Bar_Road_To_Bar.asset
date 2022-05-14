@@ -18,11 +18,11 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Tequilla
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
+    defaulScenario: {fileID: 11400000, guid: ec07591f52723ea43b9aa424d207725c, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Whiskey
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
+    defaulScenario: {fileID: 11400000, guid: ec07591f52723ea43b9aa424d207725c, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
