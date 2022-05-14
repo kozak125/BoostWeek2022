@@ -15,10 +15,12 @@ MonoBehaviour:
   scenarioImage: {fileID: 21300000, guid: d7ba3c703c226954cb47226ef71fc880, type: 3}
   scenarioDescription: CJ! You little bitch ass m*f! You got ya ass kicked again,
     huh? No pierogi for you son!
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Try to take revenge for grandma's word and pounce on her
       while trying to grab pierogi
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -28,10 +30,13 @@ MonoBehaviour:
       onlyCheckCondition: 0
   - dialogueOptionText: '"Oh damn, what''s that? An aeroplane?" Point somewhere behind
       grandma and attempt to just grab pierogi anyway'
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: e4c5b6e2f55952d4bbeff90cd37a550b, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Apologize for your pitiful weakness and ask for forgiveness
       (and maybe some treats)
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 24c5283474c760348a91d38ba086ec0c, type: 2}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
