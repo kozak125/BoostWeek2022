@@ -62,7 +62,7 @@ public class ScenarioManager : MonoBehaviour
             CreateDescriptionStyle(newScenario.ScenarioDescriptionFormat);
         }
 
-        scenarioDescription.text = newScenario.ScenarioDescription;
+        scenarioDescription.text = newScenario.ScenarioDescription.Replace("\\n", "\n");
         GameObject dialogueButton;
         foreach (var button in newScenario.DialogueOptions)
         {
