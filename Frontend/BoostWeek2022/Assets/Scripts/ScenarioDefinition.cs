@@ -16,6 +16,10 @@ public class ScenarioDefinition : ScriptableObject
     [SerializeField]
     private List<Option> dialogueOptions;
     [SerializeField]
+    private MusicGroup scenarioMusicGroup;
+    [SerializeField]
+    private AudioClip scenarioMusic;
+    [SerializeField]
     private ScenarioVisitedCondition scenarioConditionToTrack;
     [SerializeField]
     private bool isEnding = false;
@@ -26,6 +30,8 @@ public class ScenarioDefinition : ScriptableObject
     public bool IsEnding => isEnding;
     public TMP_Text ScenarioDescriptionFormat => scenarioDescriptionFormat;
     public ScenarioVisitedCondition ScenarioConditionToTrack => scenarioConditionToTrack;
+    public AudioClip ScenarioMusic => scenarioMusic;
+    public MusicGroup ScenarioMusicGroup => scenarioMusicGroup;
 
     [Serializable]
     public class Option

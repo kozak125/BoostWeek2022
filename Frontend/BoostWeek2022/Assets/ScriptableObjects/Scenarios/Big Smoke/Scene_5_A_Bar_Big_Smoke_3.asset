@@ -24,7 +24,7 @@ MonoBehaviour:
   - dialogueOptionText: Pour the glass over Big Smoke's face and say that your'e
       done with him.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 3ea64bf728be51349955d90537480f8e, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6b62ee32e6c0b134582fa2e1ea27ad42, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
