@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_8_A_PARK_2
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 27f6cd6d17f737848a68ca50c414f2da, type: 3}
   scenarioDescription: Park sunshine transforms into the laughter of the children
     and the wings of the butterflies.
   scenarioDescriptionFormat: {fileID: 0}
@@ -28,6 +28,10 @@ MonoBehaviour:
   - dialogueOptionText: Go back
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 69a0bb80c61489a41afe42ee0d783da5, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Go straight
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

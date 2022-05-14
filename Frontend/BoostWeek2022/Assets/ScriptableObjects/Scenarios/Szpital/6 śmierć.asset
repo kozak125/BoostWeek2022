@@ -10,21 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_8_A_PARK_1
+  m_Name: "6 \u015Bmier\u0107"
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: b37788c0d3ed6f74a9aced8c2c886dfb, type: 3}
-  scenarioDescription: The comfort of the black bench, warm from the steady sun,
-    is a place to absorb the beauty of the park, the beauty of a joyful community
-    at play.
+  scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
+  scenarioDescription: Ah shit! No, no, no.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Go straight
+  - dialogueOptionText: Hey! Why not to transport directly to the bar?
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: a4af6fd153860784b93f8d52b085e509, type: 2}
+    defaulScenario: {fileID: 0}
     conditionalBranches: []
-  - dialogueOptionText: Go back
+  - dialogueOptionText: Check what's happening on Groove Street
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 597827d47a355dd42a725cc72c069e4e, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
