@@ -15,15 +15,20 @@ MonoBehaviour:
   scenarioImage: {fileID: 0}
   scenarioDescription: '[Catalina] Ohoho I see you a funny boy, huh? Just like I
     remember you. Come closer handsome. I''ve got great news for you.'
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: What news? That you have a twin sister who is actually sound
       of mind?
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
     conditionalBranches: []
   - dialogueOptionText: 'Bring it already, Big S. is waiting for me. '
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
     conditionalBranches: []
   - dialogueOptionText: 'Do I know you? '
-    defaulScenario: {fileID: 11400000, guid: b330789965469d7488555fd7a024ab4d, type: 2}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

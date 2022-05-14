@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: Scene_5_A_Bar_Catalina_D
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
-  scenarioDescription: '[Catalina] Ohoho I see you a funny boy, huh? Just like I
-    remember you. Come closer handsome. I''ve got great news for you.'
+  scenarioDescription: '[Catalina] Oh Mr. Johnson, you''re such a man. You remember
+    that time back in the cabin...? In the woods..? I was on top of the world and
+    now I''m eating for two...'
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: What news? That you have a twin sister who is actually sound
-      of mind?
-    defaulScenario: {fileID: 0}
+  - dialogueOptionText: What ya sayin baby? Is this little CJ you talking about?
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 19c95ef78e0990845a16744bc24d31f9, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: 'Bring it already, Big S. is waiting for me. '
-    defaulScenario: {fileID: 0}
+  - dialogueOptionText: 'Pretend like you didn''t hear it and look on your phone:
+      Oh a new message on Slack...'
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: f895c90646b3b654d940b9c292b47d18, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: 'Do I know you? '
-    defaulScenario: {fileID: 11400000, guid: b330789965469d7488555fd7a024ab4d, type: 2}
-    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

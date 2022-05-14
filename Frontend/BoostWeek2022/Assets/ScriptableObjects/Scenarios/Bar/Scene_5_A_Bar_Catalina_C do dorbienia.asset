@@ -15,18 +15,24 @@ MonoBehaviour:
   scenarioImage: {fileID: 0}
   scenarioDescription: '[Catalina] Ohoho I see you a funny boy, huh? Just like I
     remember you. Come closer handsome. I''ve got great news for you.'
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Come on baby light my fire! Tease her.
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Ok baby, I'm sorry, let me explain. Comfort her.
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Break a leg, to avoid confrontation.
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
   - dialogueOptionText: 'Break her heart: Do I look like some Papa to You? Go find
       another loser to look after Your kid, b*!'
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 0}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

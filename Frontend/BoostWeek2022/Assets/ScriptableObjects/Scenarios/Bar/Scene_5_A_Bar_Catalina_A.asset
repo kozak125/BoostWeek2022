@@ -15,19 +15,25 @@ MonoBehaviour:
   scenarioImage: {fileID: 0}
   scenarioDescription: '[Catalina] <with heavy Mexican accent> Carl, you crazy? What''ya
     doin here?'
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: You want some of my ice babe? Ask if she wants coke
-    defaulScenario: {fileID: 11400000, guid: b330789965469d7488555fd7a024ab4d, type: 2}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Girl, I don't want to buy your pottery, leave me alone. Look
       away and move on.
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 1245f0bd72804ce4a9d7b028bc9b2f76, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Oh come on baby, glad to see you too! (Hug her)
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: f895c90646b3b654d940b9c292b47d18, type: 2}
     conditionalBranches: []
   - dialogueOptionText: You must've mistaken me for my twin brother, he's just the
       same!
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: f895c90646b3b654d940b9c292b47d18, type: 2}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
