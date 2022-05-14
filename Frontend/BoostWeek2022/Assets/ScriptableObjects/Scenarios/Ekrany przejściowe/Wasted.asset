@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 4ecd0799d8835af498ea3f4eaf782141, type: 3}
   scenarioDescription: Wasted
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
