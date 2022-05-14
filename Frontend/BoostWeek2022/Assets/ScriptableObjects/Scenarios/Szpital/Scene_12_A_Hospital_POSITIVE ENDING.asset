@@ -17,7 +17,7 @@ MonoBehaviour:
     dreaming?
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Check again what's happening on Groove Street
+  - dialogueOptionText: Check again what's happening on Grove Street
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
     conditionalBranches: []

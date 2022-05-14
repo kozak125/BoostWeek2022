@@ -19,7 +19,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Continue
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6b1a8b7fdfb25c244b7a44525da8aea6, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

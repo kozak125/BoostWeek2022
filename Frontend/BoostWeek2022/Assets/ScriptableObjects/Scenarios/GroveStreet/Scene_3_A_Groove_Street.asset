@@ -16,7 +16,7 @@ MonoBehaviour:
   scenarioDescription: Grove Street. Home.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Sit on the curb, firre up the joint and enjoy the view
+  - dialogueOptionText: Sit on the curb, fire up the joint and enjoy the view
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 9b8ba9b80d3254849a4e1c8803e954c6, type: 2}
     conditionalBranches:

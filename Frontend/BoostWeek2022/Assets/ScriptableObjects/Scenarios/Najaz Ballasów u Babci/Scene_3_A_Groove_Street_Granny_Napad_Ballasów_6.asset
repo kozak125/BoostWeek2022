@@ -20,7 +20,12 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 34861a09ac8f3b94bb136dabb6c7ba7d, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Take the Winchester and tell Granny to hide
+  - dialogueOptionText: Pretend that your dead but priorly tell them that there will
+      be enough pierogi for everyone
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 34861a09ac8f3b94bb136dabb6c7ba7d, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Hide and call the police
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 34861a09ac8f3b94bb136dabb6c7ba7d, type: 2}
     conditionalBranches: []

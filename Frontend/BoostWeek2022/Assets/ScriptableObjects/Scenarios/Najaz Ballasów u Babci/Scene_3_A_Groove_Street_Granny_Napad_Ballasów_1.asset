@@ -16,7 +16,7 @@ MonoBehaviour:
   scenarioDescription: Wait, shut up! Have you heard that?
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: A ain't hear shit, Granny! Have you taken your pills today?
+  - dialogueOptionText: I ain't hear shit, Granny! Have you taken your pills today?
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 94f60e4c0e0c8a34a9ba4a3e7e27de11, type: 2}
     conditionalBranches: []
