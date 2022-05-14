@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_8_A_PARK_1
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: b37788c0d3ed6f74a9aced8c2c886dfb, type: 3}
   scenarioDescription: The comfort of the black bench, warm from the steady sun,
     is a place to absorb the beauty of the park, the beauty of a joyful community
     at play.
@@ -22,7 +22,7 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: a4af6fd153860784b93f8d52b085e509, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Go right
+  - dialogueOptionText: Go back
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 597827d47a355dd42a725cc72c069e4e, type: 2}
     conditionalBranches: []
