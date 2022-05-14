@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_3_A_Groove_Street_Subscene B
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 5a3cb741bcf206643ae0ea42b044a329, type: 3}
   scenarioDescription: '[Police officer] Well, well, well. What do I smell here?
     It''s something green, but it''s not spinachi. You''re under arrest!'
   scenarioDescriptionFormat: {fileID: 0}
