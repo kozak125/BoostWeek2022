@@ -18,7 +18,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Try again
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 9c1df3fba598f39468411e9ed877300b, type: 2}
+    defaulScenario: {fileID: 11400000, guid: fbad81525d30af94d9c3e34942d5a635, type: 2}
     conditionalBranches: []
   - dialogueOptionText: I need this more than you I think!
     dialogueOptionFormat: {fileID: 0}
