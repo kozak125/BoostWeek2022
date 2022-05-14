@@ -20,7 +20,7 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: b330789965469d7488555fd7a024ab4d, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Check what's happening on Groove Street
+  - dialogueOptionText: Check what's happening on Grove Street
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
     conditionalBranches: []
