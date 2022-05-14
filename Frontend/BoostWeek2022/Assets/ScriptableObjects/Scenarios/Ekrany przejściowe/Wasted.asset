@@ -32,5 +32,29 @@ MonoBehaviour:
       minimalViableValue: 2
       maxViableValue: 3
       onlyCheckCondition: 0
+    - branch: {fileID: 11400000, guid: ff0b7a37033505a47b3bffa8ef5058b4, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
+        type: 2}
+      minimalViableValue: 3
+      maxViableValue: 4
+      onlyCheckCondition: 0
+    - branch: {fileID: 11400000, guid: 545f0ba05a4e1c04cbef849f20112ef9, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
+        type: 2}
+      minimalViableValue: 4
+      maxViableValue: 5
+      onlyCheckCondition: 0
+    - branch: {fileID: 11400000, guid: 5b53b30124a16a94f97553a83f341544, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
+        type: 2}
+      minimalViableValue: 5
+      maxViableValue: 6
+      onlyCheckCondition: 0
+    - branch: {fileID: 11400000, guid: 40bded1b29e6fb34084ad858b6430f47, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
+        type: 2}
+      minimalViableValue: 6
+      maxViableValue: 999
+      onlyCheckCondition: 0
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 1
