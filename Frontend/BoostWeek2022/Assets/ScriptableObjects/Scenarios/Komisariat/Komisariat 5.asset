@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: Komisariat 5
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 21300000, guid: ec97c6016baa79b4cadd50c58517cada, type: 3}
+  scenarioDescription: '[Police officer] Another day, another stoner. God dammit
+    people, how is it you puff all day and do nothing else, yet you still have bucks
+    for your living. Show me your pockets you little shit I know what ya got there!'
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: 'I ain''t talkin to cops, do what''ya want and f* off '
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 69f53ce793f75c440825fd333bc4c4a5, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Yeah, yeah, I know, officer! Imma just a piece of crap. Pls,
+      just let me go!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Yo yo yo, one highschool guy gave that joint to me and said
+      it's just a cigg... That m*f* tricked me!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 66371aad4445bb941a9a9f01ddcd29fb, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Ouuu you touch my tralala. Wink at him.
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
+  isEnding: 0

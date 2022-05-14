@@ -32,7 +32,7 @@ MonoBehaviour:
   - dialogueOptionText: 'Break her heart: Do I look like some Papa to You? Go find
       another loser to look after Your kid, b*!'
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 70d5b9c6308726b42a38d0ad13675565, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

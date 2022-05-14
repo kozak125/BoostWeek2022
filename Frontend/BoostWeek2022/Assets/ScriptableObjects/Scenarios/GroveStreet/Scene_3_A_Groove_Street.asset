@@ -19,13 +19,7 @@ MonoBehaviour:
   - dialogueOptionText: Sit on the curb, fire up the joint and enjoy the view
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 9b8ba9b80d3254849a4e1c8803e954c6, type: 2}
-    conditionalBranches:
-    - branch: {fileID: 0}
-      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
-        type: 2}
-      minimalViableValue: 1
-      maxViableValue: 5
-      onlyCheckCondition: 0
+    conditionalBranches: []
   - dialogueOptionText: Visit your Granny
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 46c90475373feed42a11ea24d1fcb3b3, type: 2}
