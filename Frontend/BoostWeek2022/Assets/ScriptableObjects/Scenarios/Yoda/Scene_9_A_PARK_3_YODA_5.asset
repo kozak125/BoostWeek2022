@@ -25,12 +25,8 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Homey, What You On? Whatever It Is, You Need To Reduce The
-      Dosage!
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
-    conditionalBranches: []
-  - dialogueOptionText: The only things I sense is need for more alcohol!
+  - dialogueOptionText: Homey, what you on? Whatever it is, you need to reduce the
+      dosage!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
     conditionalBranches: []
@@ -38,5 +34,7 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: fd22e83a5eaa96c4b863a9a2343ce6c9, type: 2}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
