@@ -751,8 +751,9 @@ MonoBehaviour:
     gsfgsdfgdfs sadfsd afasdfgadf gsfgsdfgdfs sadfsd afasdfgadf gsfgsdfgdfs sadfsd
     afasdfgadf gsfgsdfg
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b1ab010a71d72074581f4c92a741324e, type: 2}
+  m_sharedMaterial: {fileID: -2690923797492449370, guid: b1ab010a71d72074581f4c92a741324e,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -776,7 +777,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.55
+  m_fontSize: 31.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -857,7 +858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenarioPicker: {fileID: 2004597620}
-  startingScenario: {fileID: 0}
+  startingScenario: {fileID: 11400000, guid: fb215e8ad70e98240a34c92117029ba3, type: 2}
   scenarioImage: {fileID: 1112933515}
   scenarioDescription: {fileID: 1854616760}
   scenarioOptionButton: {fileID: 1538188673053920987, guid: 425d5fbd651d2bb46a203fef3e4cec18,

@@ -32,6 +32,10 @@ public class ScenarioManager : MonoBehaviour
         ClearPreviousScenario();
         currentScenario = newScenario;
         SetScenario(newScenario);
+        if (currentScenario.IsEnding)
+        {
+            MessageBroker.Instance.LifeLost.Invoke();
+        }
     }
 
     private void ClearPreviousScenario()

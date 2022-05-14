@@ -12,10 +12,13 @@ public class Scenario : ScriptableObject
     private string scenarioDescription;
     [SerializeField]
     private List<Option> dialogueOptions;
+    [SerializeField]
+    private bool isEnding = false;
 
     public Sprite ScenarioImage => scenarioImage;
     public string ScenarioDescription => scenarioDescription;
     public List<Option> DialogueOptions => dialogueOptions;
+    public bool IsEnding => isEnding;
 
     [Serializable]
     public class Option
@@ -23,16 +26,30 @@ public class Scenario : ScriptableObject
         [SerializeField]
         private string dialogueOptionText;
         [SerializeField]
-        private Scenario branch;
+        private Scenario defaulScenario;
+        [SerializeField]
+        private List<ConditionalBranching> conditionalBranches;
 
         public string DialogueOptionText => dialogueOptionText;
-        public Scenario Branch => branch;
+        public Scenario DefaultScenario => defaulScenario;
+        public List<ConditionalBranching> ConditionalBranches => conditionalBranches;
     }
 
     [Serializable]
-    private class ScenarioBranching
+    public class ConditionalBranching
     {
         [SerializeField]
-        private List<Scenario> branch;
+        private Scenario branch;
+        [SerializeField]
+        private IntegerCondition conditionForBranch;
+        [SerializeField]
+        private int minimalViableValue;
+        [SerializeField]
+        private int maxViableValue;
+
+        public Scenario Branch => branch;
+        public IntegerCondition ConditionForBranch => conditionForBranch;
+        public int MinimalViableValue => minimalViableValue;
+        public int MaxViableValue => maxViableValue;
     }
 }
