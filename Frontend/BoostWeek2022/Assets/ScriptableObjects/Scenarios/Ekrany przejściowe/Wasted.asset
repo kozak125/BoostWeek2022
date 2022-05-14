@@ -24,7 +24,13 @@ MonoBehaviour:
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
         type: 2}
       minimalViableValue: 1
-      maxViableValue: 999
+      maxViableValue: 2
+      onlyCheckCondition: 0
+    - branch: {fileID: 11400000, guid: 62fd881d907431b40bb52c7fc216f0fd, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
+        type: 2}
+      minimalViableValue: 2
+      maxViableValue: 3
       onlyCheckCondition: 0
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 1

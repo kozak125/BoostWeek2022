@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_1_A_Hospital_MORE THAN_0_DEATHS
+  m_Name: Snena Intro2
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
-  scenarioDescription: Ah shit here we go literally again? What's happening? Am I
-    dreaming?
+  scenarioDescription: Ah shit here we go again.
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Check again what's happening on Groove Street!
-    defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
+  - dialogueOptionText: Continue
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 91e7c7251b358bf48b7e5045cd31b616, type: 2}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
