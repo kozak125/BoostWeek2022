@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29168486f1ee53449bd7cc2de5780593, type: 3}
-  m_Name: LivesLostCondition
+  m_Script: {fileID: 11500000, guid: 9d310d349550d9845b69b76b2d095b2e, type: 3}
+  m_Name: FakeCreditsOptionClicked
   m_EditorClassIdentifier: 
-  value: 9
+  value: 0
