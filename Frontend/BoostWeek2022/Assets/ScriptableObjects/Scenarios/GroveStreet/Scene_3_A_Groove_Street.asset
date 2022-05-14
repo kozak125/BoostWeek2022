@@ -26,8 +26,7 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 5
       onlyCheckCondition: 0
-  - dialogueOptionText: '"Damn ma! That''s the stuff!" Enjoy pierogi, give your badass
-      grandma a hug and go out'
+  - dialogueOptionText: Visit your Granny
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 0}
     conditionalBranches:

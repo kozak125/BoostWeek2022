@@ -16,9 +16,9 @@ MonoBehaviour:
   scenarioDescription: Grove Street. Home.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Sit on the curb, firre up the joint and enjoy the view
+  - dialogueOptionText: Knock on the door for the house number 6
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 5b2fce388325e5d478145c19fc733b29, type: 2}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -26,10 +26,9 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 5
       onlyCheckCondition: 0
-  - dialogueOptionText: '"Damn ma! That''s the stuff!" Enjoy pierogi, give your badass
-      grandma a hug and go out'
+  - dialogueOptionText: Knock on the door for the house number 9
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
