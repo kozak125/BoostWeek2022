@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_5_A_Bar_Big_Smoke_1
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 139269d6a9185334883f0e10ea9c9b7d, type: 3}
+  scenarioImage: {fileID: 21300000, guid: 886f68cfb358f7745be76e34127108c6, type: 3}
   scenarioDescription: '[Big Smoke] I''ll have two shots Tequillas, a glass of whiskey,
     make it double, and actually - make 4 Tequillas, on top of that two portions
     of nachos, one with cheese, and a large soda.'
