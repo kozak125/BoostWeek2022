@@ -20,7 +20,9 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: "......kuuuur\u0142aaaawwwweeeeeeooooo....."
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 3ea64bf728be51349955d90537480f8e, type: 2}
+    defaulScenario: {fileID: 11400000, guid: bd65db6536d645a4890cfe43eea933cc, type: 2}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
