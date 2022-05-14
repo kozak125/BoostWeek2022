@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: Scene_3_A_Groove_Street_Granny_Subcene_2 1
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 21300000, guid: d7ba3c703c226954cb47226ef71fc880, type: 3}
+  scenarioDescription: CJ! You little bitch ass m*f! You got ya ass kicked again,
+    huh? No pierogi for you son!
+  dialogueOptions:
+  - dialogueOptionText: Try to take revenge for grandma's word and pounce on her
+      while trying to grab pierogi
+    defaulScenario: {fileID: 0}
+    conditionalBranches:
+    - branch: {fileID: 0}
+      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
+        type: 2}
+      minimalViableValue: 1
+      maxViableValue: 5
+      onlyCheckCondition: 0
+  - dialogueOptionText: '"Oh damn, what''s that? An aeroplane?" Point somewhere behind
+      grandma and attempt to just grab pierogi anyway'
+    defaulScenario: {fileID: 0}
+    conditionalBranches: []
+  - dialogueOptionText: Apologize for your pitiful weakness and ask for forgiveness
+      (and maybe some treats)
+    defaulScenario: {fileID: 0}
+    conditionalBranches: []
+  isEnding: 0

@@ -16,7 +16,7 @@ MonoBehaviour:
   scenarioDescription: Ah shit here we go again.
   dialogueOptions:
   - dialogueOptionText: Go back to sleep
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: b330789965469d7488555fd7a024ab4d, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Check what's happening on Groove Street!
     defaulScenario: {fileID: 11400000, guid: 17c5804f5a47f7c45b8380473bff5d47, type: 2}

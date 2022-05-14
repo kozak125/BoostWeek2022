@@ -15,7 +15,8 @@ MonoBehaviour:
   scenarioImage: {fileID: 21300000, guid: 538ec442d3ced454c9f4193aea56445a, type: 3}
   scenarioDescription: Hmm, I got no money. How would I get there?
   dialogueOptions:
-  - dialogueOptionText: 'Get beaten your shit up by the taxi driver '
+  - dialogueOptionText: Get your ass whooped by the Uber driver who has apparently
+      been in the same kindergarden as Khabib Nurmagomedov
     defaulScenario: {fileID: 0}
     conditionalBranches: []
   isEnding: 1
