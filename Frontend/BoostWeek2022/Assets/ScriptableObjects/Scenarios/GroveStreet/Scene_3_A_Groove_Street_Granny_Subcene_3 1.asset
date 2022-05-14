@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Scene_3_A_Groove_Street_Granny_Subcene_3 1
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: d7ba3c703c226954cb47226ef71fc880, type: 3}
-  scenarioDescription: CJ! You little bitch ass m*f! You got ya ass kicked again,
-    huh? No pierogi for you son!
+  scenarioDescription: Damn you sneaky little bastard! Get outta here or you will
+    regret leavin the hospital bed!
   dialogueOptions:
-  - dialogueOptionText: Try to take revenge for grandma's word and pounce on her
-      while trying to grab pierogi
+  - dialogueOptionText: '"Sorry ma! I thought you wouldn''t notice!" Apologize, give
+      your badass grandma a hug, go out quickly and don''t look back'
     defaulScenario: {fileID: 0}
     conditionalBranches:
     - branch: {fileID: 0}
@@ -26,12 +26,4 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 5
       onlyCheckCondition: 0
-  - dialogueOptionText: '"Oh damn, what''s that? An aeroplane?" Point somewhere behind
-      grandma and attempt to just grab pierogi anyway'
-    defaulScenario: {fileID: 0}
-    conditionalBranches: []
-  - dialogueOptionText: Apologize for your pitiful weakness and ask for forgiveness
-      (and maybe some treats)
-    defaulScenario: {fileID: 0}
-    conditionalBranches: []
   isEnding: 0
