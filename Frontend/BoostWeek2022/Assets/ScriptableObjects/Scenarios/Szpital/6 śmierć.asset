@@ -18,7 +18,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Hey! Why not to transport directly to the bar?
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: a64be6834bdb165468abf111d7ff4084, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Check what's happening on Groove Street
     dialogueOptionFormat: {fileID: 0}
