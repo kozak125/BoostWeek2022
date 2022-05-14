@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_3_A_Groove_Street
+  m_Name: Scene_3_A_Groove_Street_Subscene B
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: da78a92734c144c4ca944f504b5113ff, type: 3}
-  scenarioDescription: Grove Street. Home.
+  scenarioImage: {fileID: 0}
+  scenarioDescription: '[Police officer] Well, well, well. What do I smell here?
+    It''s something green, but it''s not spinachi. You''re under arrest!'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Sit on the curb, firre up the joint and enjoy the view
+  - dialogueOptionText: Get arrested
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 9b8ba9b80d3254849a4e1c8803e954c6, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6721b1e4095c46749a4fdee35f2aef95, type: 2}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -26,15 +27,15 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 5
       onlyCheckCondition: 0
-  - dialogueOptionText: Visit your Granny
+  - dialogueOptionText: How the policeman is searching me? I have right to carry
+      what I want. What is mine is mine what smokes me. In case what I do not know
+      how and where.
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Tell there's an emergency and you have to visit your Granny
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 46c90475373feed42a11ea24d1fcb3b3, type: 2}
-    conditionalBranches:
-    - branch: {fileID: 0}
-      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
-        type: 2}
-      minimalViableValue: 1
-      maxViableValue: 5
-      onlyCheckCondition: 0
+    conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
