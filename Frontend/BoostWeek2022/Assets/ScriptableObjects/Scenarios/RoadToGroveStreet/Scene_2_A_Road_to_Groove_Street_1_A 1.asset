@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: Scene_2_A_Road_to_Groove_Street_1_A 1
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 21300000, guid: 538ec442d3ced454c9f4193aea56445a, type: 3}
+  scenarioDescription: Hmm, I got no money. How would I get there?
+  dialogueOptions:
+  - dialogueOptionText: Take a cab but do not pay
+    defaulScenario: {fileID: 11400000, guid: 17c5804f5a47f7c45b8380473bff5d47, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Go by foot
+    defaulScenario: {fileID: 0}
+    conditionalBranches: []
+  - dialogueOptionText: Steal a bike
+    defaulScenario: {fileID: 0}
+    conditionalBranches: []
+  isEnding: 0
