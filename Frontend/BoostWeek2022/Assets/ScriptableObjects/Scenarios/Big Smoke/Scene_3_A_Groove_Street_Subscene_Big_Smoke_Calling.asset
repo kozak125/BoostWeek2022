@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_3_A_Groove_Street_Subscene_Big_Smoke_Calling
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 8e641391a9e54fd43bbc59e7d8ab47d2, type: 3}
-  scenarioDescription: "Yo carl, it's Smoke. I don't wanna disrespect so don't take
+  scenarioDescription: "Yo Carl, it's Smoke. I don't wanna disrespect so don't take
     it like that. I gotta give you some advice. The bar my friend. You're letting
     yourself go. Come and let's have a bottle or two of warm and gassed Harna\u015B."
   scenarioDescriptionFormat: {fileID: 0}

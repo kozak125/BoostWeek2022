@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
   scenarioDescription: '[Mysterious Man] What if I told you that the decisions you
-    make helps you wake up.'
+    make, may help you wake up.'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: I don't want to wake up!. Take the coke and go back to the

@@ -16,6 +16,8 @@ public class ScenarioManager : MonoBehaviour
     private GameObject scenarioOptionButton;
     [SerializeField]
     private GameObject optionButtonsParent;
+    [SerializeField]
+    private FadeInController fadeInController;
 
     private ScenarioDefinition currentScenario;
 
@@ -31,6 +33,7 @@ public class ScenarioManager : MonoBehaviour
         if (currentScenario.IsEnding)
         {
             MessageBroker.Instance.OnLifeLost?.Invoke();
+            fadeInController.FadeToWhite();
         }
 
         if (currentScenario.ScenarioConditionToTrack != null)

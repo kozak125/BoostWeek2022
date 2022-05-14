@@ -13,11 +13,10 @@ MonoBehaviour:
   m_Name: Scene_12_A_Hospital_POSITIVE ENDING
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: dc2444917a885e14284843f322789859, type: 3}
-  scenarioDescription: Ah shit here we go literally again? What's happening? Am I
-    dreaming?
+  scenarioDescription: Hey you finally awake!
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Check again what's happening on Groove Street
+  - dialogueOptionText: Finally wake up
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
     conditionalBranches: []
