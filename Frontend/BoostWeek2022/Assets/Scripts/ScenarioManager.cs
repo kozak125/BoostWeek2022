@@ -7,6 +7,8 @@ public class ScenarioManager : MonoBehaviour
     [SerializeField]
     private ScenarioPicker scenarioPicker;
     [SerializeField]
+    private ScenarioMusicManager scenarioMusicManager;
+    [SerializeField]
     private Image scenarioImage;
     [SerializeField]
     private TMP_Text scenarioDescription;
@@ -45,6 +47,7 @@ public class ScenarioManager : MonoBehaviour
             currentScenario.ScenarioConditionToTrack.Subscribe(null);
         }
         SetScenario(newScenario);
+        scenarioMusicManager.TryPlayNewAudio(newScenario.ScenarioMusicGroup, newScenario.ScenarioMusic);
         MessageBroker.Instance.OnScenarioVisited?.Invoke();
     }
 
