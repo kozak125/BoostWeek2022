@@ -7,8 +7,6 @@ public class ScenarioManager : MonoBehaviour
     [SerializeField]
     private ScenarioPicker scenarioPicker;
     [SerializeField]
-    private ScenarioDefinition startingScenario;
-    [SerializeField]
     private Image scenarioImage;
     [SerializeField]
     private TMP_Text scenarioDescription;
@@ -21,7 +19,7 @@ public class ScenarioManager : MonoBehaviour
 
     private ScenarioDefinition currentScenario;
 
-    private void Awake()
+    public void LoadFirstScenario(ScenarioDefinition startingScenario)
     {
         currentScenario = startingScenario;
         ChangeScenario(startingScenario);
