@@ -19,7 +19,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Cheers bro!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 5b2fce388325e5d478145c19fc733b29, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 759fb6530b668b644849e410eee2dab7, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
