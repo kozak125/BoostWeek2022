@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Komisariat 4
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
-  scenarioDescription: 
+  scenarioImage: {fileID: 21300000, guid: ec97c6016baa79b4cadd50c58517cada, type: 3}
+  scenarioDescription: '[Police officer] You know what? I got more pleasent things
+    to do that smelling your shit pants. Go home! Quick! Before I change my mind...'
   dialogueOptions: []
   isEnding: 0

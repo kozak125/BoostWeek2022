@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Komisariat 3
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
-  scenarioDescription: 
+  scenarioImage: {fileID: 21300000, guid: ec97c6016baa79b4cadd50c58517cada, type: 3}
+  scenarioDescription: '[Police officer] Aight, then! Feel my shiny, liitle stick!'
   dialogueOptions: []
   isEnding: 0
