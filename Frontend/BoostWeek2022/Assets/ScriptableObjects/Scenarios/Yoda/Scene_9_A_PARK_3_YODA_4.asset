@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: Scene_9_A_PARK_3_YODA_4
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 0}
+  scenarioDescription: Death is a natural part of life. Rejoice for those around
+    you who transform into the Force. Mourn them do not. Miss them do not. Attachment
+    leads to jealously. The shadow of greed, that is.
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: Fishing Clash
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Hunting Clash
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Flip This House
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 88d5a301f00c9f0458fb0d4c93427e21, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Undead Clash
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Let's Fish
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
+  isEnding: 0
