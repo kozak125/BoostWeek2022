@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Road to police station2
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 5a3cb741bcf206643ae0ea42b044a329, type: 3}
   scenarioDescription: '[Police officer] You must be dreaming that you can get away
     with it! You have the right to remain silent. You are entitled to a lawyer. Anything
     you say can be used against you.'
