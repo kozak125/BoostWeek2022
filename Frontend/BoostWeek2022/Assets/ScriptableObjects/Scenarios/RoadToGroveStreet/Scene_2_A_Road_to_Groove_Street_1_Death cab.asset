@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: Scene_2_A_Road_to_Groove_Street_1_Death cab
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 538ec442d3ced454c9f4193aea56445a, type: 3}
-  scenarioDescription: Hmm, I got no money. How would I get there?
+  scenarioDescription: '[Driver] What ya thinking son?'
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Get your ass whooped by the Uber driver who has apparently
       been in the same kindergarden as Khabib Nurmagomedov
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 1
