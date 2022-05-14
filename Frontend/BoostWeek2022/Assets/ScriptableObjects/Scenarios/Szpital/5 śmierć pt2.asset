@@ -20,11 +20,6 @@ MonoBehaviour:
   - dialogueOptionText: Yup
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 2c8001869727f3b45aaba5be74a10894, type: 2}
-    conditionalBranches:
-    - branch: {fileID: 0}
-      conditionForBranch: {fileID: 0}
-      minimalViableValue: 0
-      maxViableValue: 0
-      onlyCheckCondition: 0
+    conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
