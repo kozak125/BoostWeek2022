@@ -10,21 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_2_A_Road_to_Groove_Street_2_A
+  m_Name: Scene_8_A_PARK_2
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 538ec442d3ced454c9f4193aea56445a, type: 3}
-  scenarioDescription: You follow the road until you see the wall with a graffiti
-    on it.  The obstacle splits your path into two ways - left and right. The art
-    states that "WHOEVER GOES FORWARD, NEVER GOES BACK". An odd feeling fills your
-    veins and for a split second your heartbeat raises up. Now it is the time to
-    decide which way you choose.
+  scenarioImage: {fileID: 0}
+  scenarioDescription: Park sunshine transforms into the laughter of the children
+    and the wings of the butterflies.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Turn right
+  - dialogueOptionText: Go left
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Go right
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 759fb6530b668b644849e410eee2dab7, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Turn left
+  - dialogueOptionText: Go back
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 69a0bb80c61489a41afe42ee0d783da5, type: 2}
     conditionalBranches: []
