@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: Scene_11_A_EXCAPE_FROM_POLICE_STATION_A
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 0}
+  scenarioDescription: '[CJ] Oh shit, oh shit, oh shit, where should I run?'
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: Run as fast as you can!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 9c1df3fba598f39468411e9ed877300b, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Hide in the wagon
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 9c1df3fba598f39468411e9ed877300b, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Walk slowly, like you don't care
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
+  isEnding: 0

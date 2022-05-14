@@ -33,7 +33,7 @@ MonoBehaviour:
     conditionalBranches: []
   - dialogueOptionText: Try to run away.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: e062174ec3d7cb64f8c2f56ce2f219aa, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
