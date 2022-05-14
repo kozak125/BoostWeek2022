@@ -20,14 +20,13 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 34861a09ac8f3b94bb136dabb6c7ba7d, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Pretend that your dead but priorly tell them that there will
-      be enough pierogi for everyone
+  - dialogueOptionText: Pretend that your dead
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 34861a09ac8f3b94bb136dabb6c7ba7d, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Hide and call the police
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 34861a09ac8f3b94bb136dabb6c7ba7d, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6721b1e4095c46749a4fdee35f2aef95, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
