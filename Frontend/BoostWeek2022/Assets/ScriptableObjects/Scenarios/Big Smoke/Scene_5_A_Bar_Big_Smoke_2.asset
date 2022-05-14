@@ -24,7 +24,7 @@ MonoBehaviour:
     conditionalBranches: []
   - dialogueOptionText: Drink 4 Tequila shots and whole glass of whiskey at once
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: bb9d55a11901a0d40960b339cc925217, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 4c0cc3119436f7b44977e700cc634751, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Drink 4 shots of Tequila and order 8 more
     dialogueOptionFormat: {fileID: 0}
