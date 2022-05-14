@@ -13,25 +13,13 @@ MonoBehaviour:
   m_Name: Scene_10_A_HEAVEN_3_FINAL_ROUND_POSITIVE
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
-  scenarioDescription: '[MORGAN FREEMAN] If you can dream it, you can do it. What
-    are you dreaming about?'
+  scenarioDescription: The best way to guarantee a loss is to quit. Do you want to
+    finally wake up?
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Finally waking up
+  - dialogueOptionText: I just wanna wake up...
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
-    conditionalBranches: []
-  - dialogueOptionText: That all I had to do was to follow the damn train
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
-    conditionalBranches: []
-  - dialogueOptionText: More Tequilas
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
-    conditionalBranches: []
-  - dialogueOptionText: Getting back to Groove Street
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: f029c9c0ac04856489b029a378e5dbcd, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

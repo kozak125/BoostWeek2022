@@ -19,19 +19,19 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Finally waking up
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 27a5f42dc79cf2d48b3a9cdd2585023d, type: 2}
     conditionalBranches: []
   - dialogueOptionText: That all I had to do was to follow the damn train
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 27a5f42dc79cf2d48b3a9cdd2585023d, type: 2}
     conditionalBranches: []
   - dialogueOptionText: More Tequilas
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: c65253e9978f18c45a6e8696b81fa9c9, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Getting back to Groove Street
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: c65253e9978f18c45a6e8696b81fa9c9, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

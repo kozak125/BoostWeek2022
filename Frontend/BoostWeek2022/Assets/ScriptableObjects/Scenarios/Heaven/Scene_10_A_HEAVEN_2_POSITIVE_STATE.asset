@@ -13,25 +13,21 @@ MonoBehaviour:
   m_Name: Scene_10_A_HEAVEN_2_POSITIVE_STATE
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
-  scenarioDescription: '[MORGAN FREEMAN] If you can dream it, you can do it. What
-    are you dreaming about?'
+  scenarioDescription: With determination and perseverance your dreams can come true;
+    they can become your reality. What is yours?
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Finally waking up
+  - dialogueOptionText: Catalina
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 75b4c16e3a17b1140ae593ea622cac58, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: That all I had to do was to follow the damn train
+  - dialogueOptionText: Granny
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 75b4c16e3a17b1140ae593ea622cac58, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: More Tequilas
+  - dialogueOptionText: Big Smoke
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
-    conditionalBranches: []
-  - dialogueOptionText: Getting back to Groove Street
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: c65253e9978f18c45a6e8696b81fa9c9, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

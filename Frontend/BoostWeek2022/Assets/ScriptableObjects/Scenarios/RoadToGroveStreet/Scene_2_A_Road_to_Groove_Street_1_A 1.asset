@@ -14,14 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 538ec442d3ced454c9f4193aea56445a, type: 3}
   scenarioDescription: Hmm, I got no money. How would I get there?
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Take a cab but do not pay
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 17c5804f5a47f7c45b8380473bff5d47, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Go by foot
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 597827d47a355dd42a725cc72c069e4e, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Steal a bike
-    defaulScenario: {fileID: 0}
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 94f7e582f112fc44e91ff17628b6db48, type: 2}
     conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
