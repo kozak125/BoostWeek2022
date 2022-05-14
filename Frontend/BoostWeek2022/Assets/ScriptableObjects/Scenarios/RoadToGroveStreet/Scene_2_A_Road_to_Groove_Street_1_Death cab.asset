@@ -22,4 +22,4 @@ MonoBehaviour:
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
-  isEnding: 1
+  isEnding: 0

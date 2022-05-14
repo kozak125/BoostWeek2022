@@ -28,6 +28,11 @@ public class ScenarioManager : MonoBehaviour
 
     private void ChangeScenario(ScenarioDefinition newScenario)
     {
+        if (currentScenario.IsEnding)
+        {
+            MessageBroker.Instance.OnLifeLost?.Invoke();
+        }
+
         if (currentScenario.ScenarioConditionToTrack != null)
         {
             currentScenario.ScenarioConditionToTrack.Unsubscribe(null);
@@ -40,10 +45,6 @@ public class ScenarioManager : MonoBehaviour
         }
         SetScenario(newScenario);
         MessageBroker.Instance.OnScenarioVisited?.Invoke();
-        if (currentScenario.IsEnding)
-        {
-            MessageBroker.Instance.OnLifeLost?.Invoke();
-        }
     }
 
     private void ClearPreviousScenario()
