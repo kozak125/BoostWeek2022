@@ -10,21 +10,21 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_5_A_Bar_Big_Smoke_3
+  m_Name: Scene_5_A_Bar_Big_Smoke_4
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 886f68cfb358f7745be76e34127108c6, type: 3}
-  scenarioDescription: '[Big Smoke] So... How are you mate?'
+  scenarioImage: {fileID: 21300000, guid: 139269d6a9185334883f0e10ea9c9b7d, type: 3}
+  scenarioDescription: '[Big Smoke] Ay CJ, did you try this new ice-creamed tea?
+    Maaan that''s good, you should...'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Tell Smoke that Catalina is single since today and drink
-      more shots.
+  - dialogueOptionText: Get another sip *chlip* Ice-creamed whaaat?... *chlip* what
+      ya talkin bout...
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 4c0cc3119436f7b44977e700cc634751, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 89a0f04b00859b043b41c3491dcdb1e5, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Pour the glass over Big Smoke's face and say that your'e
-      done with him.
+  - dialogueOptionText: Get another sip. That's the *chlip*shieeet man
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 3ea64bf728be51349955d90537480f8e, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 89a0f04b00859b043b41c3491dcdb1e5, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

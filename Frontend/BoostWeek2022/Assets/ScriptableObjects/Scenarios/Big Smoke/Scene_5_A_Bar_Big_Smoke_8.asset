@@ -10,21 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_5_A_Bar_Big_Smoke_3
+  m_Name: Scene_5_A_Bar_Big_Smoke_8
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 886f68cfb358f7745be76e34127108c6, type: 3}
-  scenarioDescription: '[Big Smoke] So... How are you mate?'
+  scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
+  scenarioDescription: You fell over on the barstool and hit your head occiput (nice
+    try genius) You can't stand the feeling some revelations were waiting to be revealed
+    by you soon...
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Tell Smoke that Catalina is single since today and drink
-      more shots.
+  - dialogueOptionText: ...
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 4c0cc3119436f7b44977e700cc634751, type: 2}
+    defaulScenario: {fileID: 11400000, guid: d35747a05b49297418a3903549abb3db, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Pour the glass over Big Smoke's face and say that your'e
-      done with him.
+  - dialogueOptionText: Try to maintain awareness by breaking glass and cutting your
+      hand
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 3ea64bf728be51349955d90537480f8e, type: 2}
+    defaulScenario: {fileID: 11400000, guid: d35747a05b49297418a3903549abb3db, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
