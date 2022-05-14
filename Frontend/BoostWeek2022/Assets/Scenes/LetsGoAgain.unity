@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 786703577}
   - component: {fileID: 786703576}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -333,7 +333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.07450981, g: 0.011764707, b: 0.1137255, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -572,7 +572,7 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 2560, y: 75}
+  m_CellSize: {x: 2450, y: 75}
   m_Spacing: {x: 0, y: 20}
   m_Constraint: 1
   m_ConstraintCount: 1
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenarioPicker: {fileID: 2004597620}
-  startingScenario: {fileID: 11400000, guid: 7ce93f50041cd0b4e8aca6cafc54860d, type: 2}
+  startingScenario: {fileID: 11400000, guid: 40bded1b29e6fb34084ad858b6430f47, type: 2}
   scenarioImage: {fileID: 1112933515}
   scenarioDescription: {fileID: 1854616760}
   scenarioOptionButton: {fileID: 1538188673053920987, guid: 425d5fbd651d2bb46a203fef3e4cec18,
