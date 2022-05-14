@@ -10,17 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_3_A_Groove_Street_Subscene_Big_Smoke_Calling
+  m_Name: Scene_5_A_Bar_Road_To_Bar_B
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 8e641391a9e54fd43bbc59e7d8ab47d2, type: 3}
-  scenarioDescription: "Yo Carl, it's Smoke. I don't wanna disrespect so don't take
-    it like that. I gotta give you some advice. The bar my friend. You're letting
-    yourself go. Come and let's have a bottle or two of warm and gassed Harna\u015B."
+  scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
+  scenarioDescription: '[CJ to himself] Nah, whiskey it is!'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Sure thing Big Smoke!
+  - dialogueOptionText: Approach the bar entrance
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 1a4780575c98bb94485fde2ddc6bcbf5, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 90d1c2b865591fc4aa844ed7e608070d, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
