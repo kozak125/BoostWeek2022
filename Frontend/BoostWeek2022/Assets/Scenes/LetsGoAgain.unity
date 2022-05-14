@@ -783,7 +783,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 2
+  m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -858,7 +858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenarioPicker: {fileID: 2004597620}
-  startingScenario: {fileID: 11400000, guid: fb215e8ad70e98240a34c92117029ba3, type: 2}
+  startingScenario: {fileID: 11400000, guid: 7ce93f50041cd0b4e8aca6cafc54860d, type: 2}
   scenarioImage: {fileID: 1112933515}
   scenarioDescription: {fileID: 1854616760}
   scenarioOptionButton: {fileID: 1538188673053920987, guid: 425d5fbd651d2bb46a203fef3e4cec18,

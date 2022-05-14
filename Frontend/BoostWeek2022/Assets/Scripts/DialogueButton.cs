@@ -7,16 +7,21 @@ using UnityEngine.UI;
 public class DialogueButton : MonoBehaviour
 {
     [SerializeField]
-    TMP_Text buttonText;
+    private TMP_Text buttonText;
+    private ScenarioDefinition.Option thisDialogueOption;
+
     public void Setup(ScenarioDefinition.Option dialgoueOption)
     {
-        GetComponent<Button>().onClick.AddListener(() => InvokeDialogueCondition(dialgoueOption));
-        buttonText.text = dialgoueOption.DialogueOptionText;
-        foreach (var condition in dialgoueOption.ConditionalBranches)
+        thisDialogueOption = dialgoueOption;
+        var button = GetComponent<Button>();
+        button.onClick.AddListener(() => InvokeDialogueCondition(thisDialogueOption));
+        button.onClick.AddListener(() => CleanListeners());
+        buttonText.text = thisDialogueOption.DialogueOptionText;
+        foreach (var condition in thisDialogueOption.ConditionalBranches)
         {
             if (!condition.OnlyCheckCondition)
             {
-                condition.ConditionForBranch.Subscribe(dialgoueOption);
+                condition.ConditionForBranch.Subscribe(thisDialogueOption);
             }
         }
     }
@@ -26,5 +31,14 @@ public class DialogueButton : MonoBehaviour
         MessageBroker.Instance.OnDialogueOptionClicked?.Invoke(dialgoueOption);
     }
 
-    // Unsubscribe on destroy
+    private void CleanListeners()
+    {
+        foreach (var condition in thisDialogueOption.ConditionalBranches)
+        {
+            if (!condition.OnlyCheckCondition)
+            {
+                condition.ConditionForBranch.Unsubscribe(thisDialogueOption);
+            }
+        }
+    }
 }
