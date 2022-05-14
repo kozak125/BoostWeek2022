@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_4_A_Bar_Mysterious_Man
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 57f3c8c2916cccd4a94b48e2f0e4ea17, type: 3}
   scenarioDescription: '[Mysterious Man] What if I told you that the decisions you
     make, may help you wake up.'
   scenarioDescriptionFormat: {fileID: 0}
@@ -26,5 +26,7 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
