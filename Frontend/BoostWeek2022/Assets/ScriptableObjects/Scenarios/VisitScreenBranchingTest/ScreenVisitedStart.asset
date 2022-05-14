@@ -24,6 +24,12 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 9999
       onlyCheckCondition: 1
+    - branch: {fileID: 11400000, guid: c4a853ffb1c7a264896e171e5317d5b9, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: c9f55c9d2a6c85b48a2c947e909d7eed,
+        type: 2}
+      minimalViableValue: 1
+      maxViableValue: 9999
+      onlyCheckCondition: 1
   - dialogueOptionText: No
     defaulScenario: {fileID: 11400000, guid: 9db22671e6b38474980b5b23b797807c, type: 2}
     conditionalBranches:
@@ -33,7 +39,16 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 9999
       onlyCheckCondition: 1
+    - branch: {fileID: 11400000, guid: adb419e02a365c046bd17733f92d63c8, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: c9f55c9d2a6c85b48a2c947e909d7eed,
+        type: 2}
+      minimalViableValue: 1
+      maxViableValue: 9999
+      onlyCheckCondition: 1
   - dialogueOptionText: I will visit now
     defaulScenario: {fileID: 11400000, guid: 4d83f5a0e4c9c4a46b722fed9b67d4a1, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: I will, but not really
+    defaulScenario: {fileID: 11400000, guid: 6eb505d2889a97d4eb1edbb5ead050f8, type: 2}
     conditionalBranches: []
   isEnding: 0

@@ -41,7 +41,7 @@ public class ScenarioManager : MonoBehaviour
     {
         foreach (Transform child in optionButtonsParent.transform)
         {
-            GameObject.Destroy(child.gameObject);
+            Destroy(child.gameObject);
         }
     }
 
