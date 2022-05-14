@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: "Scene_3_A_Groove_Street_Granny_Napad_Ballas\xF3w_9_B"
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
   scenarioDescription: '[CJ to himself] Ahh finally silence.'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: ...
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 759fb6530b668b644849e410eee2dab7, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 3adb33924bdaa294a9072d2a486369bd, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: "Scene_3_A_Groove_Street_Granny_Napad_Ballas\xF3w_8_B"
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
   scenarioDescription: '[CJ to himself] How did they know I was there?'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
