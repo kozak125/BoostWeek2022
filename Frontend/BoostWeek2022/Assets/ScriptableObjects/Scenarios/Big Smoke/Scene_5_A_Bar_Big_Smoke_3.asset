@@ -19,7 +19,7 @@ MonoBehaviour:
   - dialogueOptionText: Tell Smoke that Catalina is single since today and drink
       more shots.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 9c1df3fba598f39468411e9ed877300b, type: 2}
+    defaulScenario: {fileID: 11400000, guid: bb9d55a11901a0d40960b339cc925217, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Pour the glass over Big Smoke's face and say that your'e
       done with him.

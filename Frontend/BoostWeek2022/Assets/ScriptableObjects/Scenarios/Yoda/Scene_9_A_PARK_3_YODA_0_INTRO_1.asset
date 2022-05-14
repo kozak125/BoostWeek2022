@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_5_A_Bar_Catalina_G
+  m_Name: Scene_9_A_PARK_3_YODA_0_INTRO_1
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 1392b0f3e3bbee6469215069c5f4202b, type: 3}
-  scenarioDescription: '[Catalina] Looks with doe-eyed sight. I knew you''d come
-    to your senses! See you later on a dinner at Granny!'
+  scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
+  scenarioDescription: '[CJ to himself] Wait a moment, what''s that sound?'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: See you, babe!
+  - dialogueOptionText: Listen carefully
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 1262d1872d0a195479af2adda88918d6, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
