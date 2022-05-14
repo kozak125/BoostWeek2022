@@ -12,7 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Wasted
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 4ecd0799d8835af498ea3f4eaf782141, type: 3}
+  scenarioImage: {fileID: 21300000, guid: 3d1b70593ffadc6429d2dbcb39ff5ab4, type: 3}
   scenarioDescription: Wasted
-  dialogueOptions: []
-  isEnding: 0
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: Wake up CJ!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 40bded1b29e6fb34084ad858b6430f47, type: 2}
+    conditionalBranches:
+    - branch: {fileID: 11400000, guid: b330789965469d7488555fd7a024ab4d, type: 2}
+      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
+        type: 2}
+      minimalViableValue: 1
+      maxViableValue: 999
+      onlyCheckCondition: 0
+  scenarioConditionToTrack: {fileID: 0}
+  isEnding: 1

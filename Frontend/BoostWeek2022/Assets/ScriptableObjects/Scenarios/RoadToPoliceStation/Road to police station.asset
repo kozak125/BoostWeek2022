@@ -12,7 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Road to police station
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
-  scenarioDescription: 
-  dialogueOptions: []
+  scenarioImage: {fileID: 21300000, guid: b0ed682a3e30af34f827602ba25ca201, type: 3}
+  scenarioDescription: Damn! Police chasing me!
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: Run!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 36349327f65be3b40acb8fc60659f5c4, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Give up
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 36349327f65be3b40acb8fc60659f5c4, type: 2}
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

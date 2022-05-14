@@ -10,28 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Komisariat 3
+  m_Name: Scene_5_A_Bar_Catalina_C do dorbienia
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: ec97c6016baa79b4cadd50c58517cada, type: 3}
-  scenarioDescription: '[Police officer] Oh, really? You little liar! You don''t
-    have a penny! Watcha gonna do, huh?'
+  scenarioImage: {fileID: 0}
+  scenarioDescription: '[Catalina] Ohoho I see you a funny boy, huh? Just like I
+    remember you. Come closer handsome. I''ve got great news for you.'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Yeah, yeah, I know, officer! Imma just a piece of crap. Pls,
-      just let me go!
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
-    conditionalBranches: []
-  - dialogueOptionText: Just take the bike! Supposed to give it as a present for
-      my nephes's birthday, but... He doesn't deserve it anyway.
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
-    conditionalBranches: []
-  - dialogueOptionText: Fuck You! You don't wanna play with a guy like me!
+  - dialogueOptionText: Come on baby light my fire! Tease her.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Try to run away.
+  - dialogueOptionText: Ok baby, I'm sorry, let me explain. Comfort her.
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Break a leg, to avoid confrontation.
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: 'Break her heart: Do I look like some Papa to You? Go find
+      another loser to look after Your kid, b*!'
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 0}
     conditionalBranches: []

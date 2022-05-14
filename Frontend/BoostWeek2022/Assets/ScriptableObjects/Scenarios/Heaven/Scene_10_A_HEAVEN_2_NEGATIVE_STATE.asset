@@ -10,23 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_2_A_Road_to_Groove_Street_1_A 1
+  m_Name: Scene_10_A_HEAVEN_2_NEGATIVE_STATE
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 538ec442d3ced454c9f4193aea56445a, type: 3}
-  scenarioDescription: Hmm, I got no money. How would I get there?
+  scenarioImage: {fileID: 0}
+  scenarioDescription: You are never too old to dream a new dream. What's a new dream
+    means to you?
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Take a cab but do not pay
+  - dialogueOptionText: It means that the old is forgotten and I can start over.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 17c5804f5a47f7c45b8380473bff5d47, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 75b4c16e3a17b1140ae593ea622cac58, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Go by foot
+  - dialogueOptionText: Not to wake up every f*cking time in the same bed in the
+      same hospital!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 597827d47a355dd42a725cc72c069e4e, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 08bda21ed7aca564e8424a6f530a702d, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Steal a bike
+  - dialogueOptionText: I don't remember any dreams.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 94f7e582f112fc44e91ff17628b6db48, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 08bda21ed7aca564e8424a6f530a702d, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

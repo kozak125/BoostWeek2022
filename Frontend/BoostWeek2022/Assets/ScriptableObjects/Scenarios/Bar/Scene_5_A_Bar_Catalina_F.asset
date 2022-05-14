@@ -10,15 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Komisariat 2
+  m_Name: Scene_5_A_Bar_Catalina_F
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 45ded4ec0738a114aa1f6f190fe9d145, type: 3}
-  scenarioDescription: '[Police officer] Aight, then! Feel my shiny, liitle stick!'
+  scenarioImage: {fileID: 0}
+  scenarioDescription: '[Catalina] Lucky you! There is only but one thing muchacho
+    that you have to do for me.\n[CJ to himself] Ahhh shieeet....\n[Catalina] You
+    must choose either me or your funny little gangsta thing. I canno''t risk our
+    baby will be raised amongst a bandit!'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Oh shit!
+  - dialogueOptionText: You mean Big Smoke? Hell no! Mates over dates - no way I'm
+      gonna...
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Ok baby, I will commit for our common cause.
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 0}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

@@ -10,15 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Komisariat 2
+  m_Name: Scene_10_A_HEAVEN_3_FINAL_ROUND_NEGATIVE
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 45ded4ec0738a114aa1f6f190fe9d145, type: 3}
-  scenarioDescription: '[Police officer] Aight, then! Feel my shiny, liitle stick!'
+  scenarioImage: {fileID: 0}
+  scenarioDescription: The best way to guarantee a loss is to quit. Do you want to
+    finally wake up?
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Oh shit!
+  - dialogueOptionText: Who t*f are you? I'm not even dreaming, dude, I'm just drunk!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6fd77dd05bf0719468d1450400dcb8d6, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

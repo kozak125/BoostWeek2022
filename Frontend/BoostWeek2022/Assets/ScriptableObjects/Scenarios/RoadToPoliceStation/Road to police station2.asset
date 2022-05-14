@@ -13,6 +13,26 @@ MonoBehaviour:
   m_Name: Road to police station2
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
-  scenarioDescription: 
-  dialogueOptions: []
+  scenarioDescription: '[Police officer] You must be dreaming that you can get away
+    with it! You have the right to remain silent. You are entitled to a lawyer. Anything
+    you say can be used against you.'
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: Officer, untie me this instant!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6721b1e4095c46749a4fdee35f2aef95, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: Can't you chase a dude who wanna' be chased?
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6721b1e4095c46749a4fdee35f2aef95, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: See you soon, I hope!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6721b1e4095c46749a4fdee35f2aef95, type: 2}
+    conditionalBranches: []
+  - dialogueOptionText: F* the police, comin' straight from the underground!
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
