@@ -18,19 +18,19 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: What do you mean?
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Pass me the beer, I'll pass what I've learned, Master Yoda
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
     conditionalBranches: []
   - dialogueOptionText: May the Los Santos be with you
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
     conditionalBranches: []
   - dialogueOptionText: Wtf? I'm so drunk that I'm literally seeing Yoda right now
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: d2fc4700bc370fa43be0361bb0e8bc12, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
     conditionalBranches: []
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
