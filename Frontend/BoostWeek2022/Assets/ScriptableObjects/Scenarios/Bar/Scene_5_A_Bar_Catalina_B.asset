@@ -22,7 +22,7 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: 'Bring it already, Big S. is waiting for me. '
+  - dialogueOptionText: 'Bring it already, somebody is waiting for me. '
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
     conditionalBranches: []
@@ -30,5 +30,7 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
