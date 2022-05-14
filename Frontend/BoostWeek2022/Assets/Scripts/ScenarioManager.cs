@@ -21,14 +21,23 @@ public class ScenarioManager : MonoBehaviour
 
     private void Awake()
     {
+        currentScenario = startingScenario;
         ChangeScenario(startingScenario);
     }
 
 
     private void ChangeScenario(ScenarioDefinition newScenario)
     {
+        if (currentScenario.ScenarioConditionToTrack != null)
+        {
+            currentScenario.ScenarioConditionToTrack.Unsubscribe(null);
+        }
         ClearPreviousScenario();
         currentScenario = newScenario;
+        if (currentScenario.ScenarioConditionToTrack != null)
+        {
+            currentScenario.ScenarioConditionToTrack.Subscribe(null);
+        }
         SetScenario(newScenario);
         MessageBroker.Instance.OnScenarioVisited?.Invoke();
         if (currentScenario.IsEnding)
@@ -48,6 +57,11 @@ public class ScenarioManager : MonoBehaviour
     private void SetScenario(ScenarioDefinition newScenario)
     {
         scenarioImage.sprite = newScenario.ScenarioImage;
+        if (newScenario.ScenarioDescriptionFormat != null)
+        {
+            CreateDescriptionStyle(newScenario.ScenarioDescriptionFormat);
+        }
+
         scenarioDescription.text = newScenario.ScenarioDescription;
         GameObject dialogueButton;
         foreach (var button in newScenario.DialogueOptions)
@@ -56,6 +70,12 @@ public class ScenarioManager : MonoBehaviour
             dialogueButton.GetComponent<DialogueButton>().Setup(button);
             dialogueButton.GetComponent<Button>().onClick.AddListener(() => PickNewScenario(button));
         }
+    }
+
+    private void CreateDescriptionStyle(TMP_Text style)
+    {
+        scenarioDescription.fontStyle = style.fontStyle;
+        scenarioDescription.textStyle = style.textStyle;
     }
 
     private void PickNewScenario(ScenarioDefinition.Option option)

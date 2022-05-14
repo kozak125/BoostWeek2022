@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 [CreateAssetMenu(menuName = "Scenario")]
 public class ScenarioDefinition : ScriptableObject
@@ -11,7 +12,11 @@ public class ScenarioDefinition : ScriptableObject
     [SerializeField]
     private string scenarioDescription;
     [SerializeField]
+    private TMP_Text scenarioDescriptionFormat;
+    [SerializeField]
     private List<Option> dialogueOptions;
+    [SerializeField]
+    private ScenarioVisitedCondition scenarioConditionToTrack;
     [SerializeField]
     private bool isEnding = false;
 
@@ -19,12 +24,16 @@ public class ScenarioDefinition : ScriptableObject
     public string ScenarioDescription => scenarioDescription;
     public List<Option> DialogueOptions => dialogueOptions;
     public bool IsEnding => isEnding;
+    public TMP_Text ScenarioDescriptionFormat => scenarioDescriptionFormat;
+    public ScenarioVisitedCondition ScenarioConditionToTrack => scenarioConditionToTrack;
 
     [Serializable]
     public class Option
     {
         [SerializeField]
         private string dialogueOptionText;
+        [SerializeField]
+        private TMP_Text dialogueOptionFormat;
         [SerializeField]
         private ScenarioDefinition defaulScenario;
         [SerializeField]
@@ -33,6 +42,7 @@ public class ScenarioDefinition : ScriptableObject
         public string DialogueOptionText => dialogueOptionText;
         public ScenarioDefinition DefaultScenario => defaulScenario;
         public List<ConditionalBranching> ConditionalBranches => conditionalBranches;
+        public TMP_Text DialogueOptionFormat => dialogueOptionFormat;
     }
 
     [Serializable]

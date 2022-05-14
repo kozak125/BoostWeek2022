@@ -16,6 +16,11 @@ public class DialogueButton : MonoBehaviour
         var button = GetComponent<Button>();
         button.onClick.AddListener(() => InvokeDialogueCondition(thisDialogueOption));
         button.onClick.AddListener(() => CleanListeners());
+        if (dialgoueOption.DialogueOptionFormat != null)
+        {
+            CreateDescriptionStyle(dialgoueOption.DialogueOptionFormat);
+        }
+
         buttonText.text = thisDialogueOption.DialogueOptionText;
         foreach (var condition in thisDialogueOption.ConditionalBranches)
         {
@@ -40,5 +45,11 @@ public class DialogueButton : MonoBehaviour
                 condition.ConditionForBranch.Unsubscribe(thisDialogueOption);
             }
         }
+    }
+
+    private void CreateDescriptionStyle(TMP_Text style)
+    {
+        buttonText.fontStyle = style.fontStyle;
+        buttonText.textStyle = style.textStyle;
     }
 }

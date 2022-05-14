@@ -14,14 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 7af55bb00f91bf94ebcd0428b864ae86, type: 3}
   scenarioDescription: This game has not been made by team 21
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Heh
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 7ce93f50041cd0b4e8aca6cafc54860d, type: 2}
-    conditionalBranches:
-    - branch: {fileID: 11400000, guid: 7ce93f50041cd0b4e8aca6cafc54860d, type: 2}
-      conditionForBranch: {fileID: 11400000, guid: c9f55c9d2a6c85b48a2c947e909d7eed,
-        type: 2}
-      minimalViableValue: 0
-      maxViableValue: 9999
-      onlyCheckCondition: 0
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 11400000, guid: c9f55c9d2a6c85b48a2c947e909d7eed,
+    type: 2}
   isEnding: 1

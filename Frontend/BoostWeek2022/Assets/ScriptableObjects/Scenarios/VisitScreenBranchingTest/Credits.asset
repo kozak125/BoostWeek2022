@@ -14,14 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: ed8d4c6f02617b24496678f0545d71b5, type: 3}
   scenarioDescription: 'Credits: Team 21'
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Cool
+    dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 7ce93f50041cd0b4e8aca6cafc54860d, type: 2}
-    conditionalBranches:
-    - branch: {fileID: 11400000, guid: 7ce93f50041cd0b4e8aca6cafc54860d, type: 2}
-      conditionForBranch: {fileID: 11400000, guid: 0e43bd08d70931c4e91cc48aa9549ca1,
-        type: 2}
-      minimalViableValue: 0
-      maxViableValue: 9999
-      onlyCheckCondition: 0
+    conditionalBranches: []
+  scenarioConditionToTrack: {fileID: 11400000, guid: 0e43bd08d70931c4e91cc48aa9549ca1,
+    type: 2}
   isEnding: 1
