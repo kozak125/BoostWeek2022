@@ -15,6 +15,7 @@ public class DialogueButton : MonoBehaviour
         thisDialogueOption = dialgoueOption;
         var button = GetComponent<Button>();
         button.onClick.AddListener(() => InvokeDialogueCondition(thisDialogueOption));
+        button.onClick.AddListener(() => TryPlaySoundEffect(dialgoueOption.SoundEffect));
         button.onClick.AddListener(() => CleanListeners());
         if (dialgoueOption.DialogueOptionFormat != null)
         {
@@ -34,6 +35,11 @@ public class DialogueButton : MonoBehaviour
     private void InvokeDialogueCondition(ScenarioDefinition.Option dialgoueOption)
     {
         MessageBroker.Instance.OnDialogueOptionClicked?.Invoke(dialgoueOption);
+    }
+
+    private void TryPlaySoundEffect(AudioClip soundEffect)
+    {
+        MessageBroker.Instance.OnTryPlayDialogueSoundEffect.Invoke(soundEffect);
     }
 
     private void CleanListeners()

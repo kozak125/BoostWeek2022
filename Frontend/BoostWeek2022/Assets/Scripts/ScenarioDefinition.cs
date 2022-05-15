@@ -43,12 +43,15 @@ public class ScenarioDefinition : ScriptableObject
         [SerializeField]
         private ScenarioDefinition defaulScenario;
         [SerializeField]
+        private AudioClip soundEffect;
+        [SerializeField]
         private List<ConditionalBranching> conditionalBranches;
 
         public string DialogueOptionText => dialogueOptionText;
         public ScenarioDefinition DefaultScenario => defaulScenario;
         public List<ConditionalBranching> ConditionalBranches => conditionalBranches;
         public TMP_Text DialogueOptionFormat => dialogueOptionFormat;
+        public AudioClip SoundEffect => soundEffect;
     }
 
     [Serializable]

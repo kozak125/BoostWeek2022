@@ -40,12 +40,14 @@ public class ScenarioManager : MonoBehaviour
         {
             currentScenario.ScenarioConditionToTrack.Unsubscribe(null);
         }
+
         ClearPreviousScenario();
         currentScenario = newScenario;
         if (currentScenario.ScenarioConditionToTrack != null)
         {
             currentScenario.ScenarioConditionToTrack.Subscribe(null);
         }
+
         SetScenario(newScenario);
         scenarioMusicManager.TryPlayNewAudio(newScenario.ScenarioMusicGroup, newScenario.ScenarioMusic);
         MessageBroker.Instance.OnScenarioVisited?.Invoke();

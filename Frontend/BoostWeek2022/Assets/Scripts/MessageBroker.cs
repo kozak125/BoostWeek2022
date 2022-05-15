@@ -19,4 +19,5 @@ public class MessageBroker
     public Action OnLifeLost;
     public Action OnScenarioVisited;
     public Action<ScenarioDefinition.Option> OnDialogueOptionClicked;
+    public Action<UnityEngine.AudioClip> OnTryPlayDialogueSoundEffect;
 }
