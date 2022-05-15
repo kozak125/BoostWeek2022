@@ -31,7 +31,9 @@ MonoBehaviour:
     conditionalBranches: []
   - dialogueOptionText: Go straight
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
+    defaulScenario: {fileID: 11400000, guid: d246bc312a419084b9767e33cd880a06, type: 2}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
