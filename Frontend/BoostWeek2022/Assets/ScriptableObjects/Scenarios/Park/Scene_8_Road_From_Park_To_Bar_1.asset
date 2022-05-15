@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
   scenarioDescription: '*View of the worst bar in town begins to appear on the horizon*
-    [CJ to himself] I''m not surprised, every road leads to this bar'
+    [CJ to himself] I''m not surprised, every road leads to this bar.'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Come to the entrance
