@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f82fcb1b63aa164f806c6c052ac8ed8, type: 3}
   m_Name: Fail
   m_EditorClassIdentifier: 
-  musicGroupName: 
+  musicGroupName: Fail
