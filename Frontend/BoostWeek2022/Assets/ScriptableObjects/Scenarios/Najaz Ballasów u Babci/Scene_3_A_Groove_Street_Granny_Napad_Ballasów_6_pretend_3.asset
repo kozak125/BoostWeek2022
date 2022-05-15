@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
+  m_Name: "Scene_3_A_Groove_Street_Granny_Napad_Ballas\xF3w_6_pretend_3"
+  m_EditorClassIdentifier: 
+  scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
+  scenarioDescription: '[Ballas leader] You thought you could hide from us? Kill
+    him!'
+  scenarioDescriptionFormat: {fileID: 0}
+  dialogueOptions:
+  - dialogueOptionText: Damn, all I had to do was pretend to be dead [Die]
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
+    conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
+  scenarioConditionToTrack: {fileID: 0}
+  isEnding: 0
