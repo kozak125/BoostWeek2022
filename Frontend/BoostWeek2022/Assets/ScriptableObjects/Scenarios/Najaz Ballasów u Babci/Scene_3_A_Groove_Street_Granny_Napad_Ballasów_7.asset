@@ -19,13 +19,13 @@ MonoBehaviour:
   - dialogueOptionText: No problem Granny, I'm gonna go take a walk now. [Go out].
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: de20322febefa884cb294a18fe55d4f8, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   - dialogueOptionText: Always glad to beat the hell our from those Ballas! See you
       later! [Go out]
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 0753a5f40bf5d004abe779e11487c19c, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: 93de9db0b371dd34baaad7cf1bece8c2, type: 2}
   scenarioMusic: {fileID: 8300000, guid: 31c05bf42a6906c4ca375ef3c5a64dd2, type: 3}

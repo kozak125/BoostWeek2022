@@ -10,34 +10,34 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Komisariat 3
+  m_Name: Komisariat 6
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: ec97c6016baa79b4cadd50c58517cada, type: 3}
-  scenarioDescription: '[Police officer] Oh, really? You little liar! You don''t
-    have a penny! Watcha gonna do, huh?'
+  scenarioDescription: '[Police officer] Oh, really? You little liar! Give me one
+    reason not to whoop your ass right now!'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Yeah, yeah, I know, officer! Imma just a piece of crap. Pls,
       just let me go!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
-    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
-  - dialogueOptionText: Just take the bike! Supposed to give it as a present for
-      my nephes's birthday, but... He doesn't deserve it anyway.
+  - dialogueOptionText: '[Damn he didn''t buy it, try to offer him some more joints
+      from high school students]'
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
-    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
+    defaulScenario: {fileID: 11400000, guid: 69f53ce793f75c440825fd333bc4c4a5, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Fuck You! You don't wanna play with a guy like me!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
-    soundEffect: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
+    defaulScenario: {fileID: 11400000, guid: 69f53ce793f75c440825fd333bc4c4a5, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Try to run away.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: e062174ec3d7cb64f8c2f56ce2f219aa, type: 2}
-    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: ed4a732024f594946af22dfaf22fd99c, type: 2}
   scenarioMusic: {fileID: 8300000, guid: 012125c72982abf47a0a4f4b823b12b5, type: 3}

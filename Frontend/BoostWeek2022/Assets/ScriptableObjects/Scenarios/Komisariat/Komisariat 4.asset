@@ -20,7 +20,7 @@ MonoBehaviour:
   - dialogueOptionText: Cheers bro!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 759fb6530b668b644849e410eee2dab7, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: ed4a732024f594946af22dfaf22fd99c, type: 2}
   scenarioMusic: {fileID: 8300000, guid: 012125c72982abf47a0a4f4b823b12b5, type: 3}
