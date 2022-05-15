@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Komisariat 6
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: ec97c6016baa79b4cadd50c58517cada, type: 3}
-  scenarioDescription: '[Police officer] Oh, really? You little liar! You don''t
-    have a penny! Watcha gonna do, huh?'
+  scenarioDescription: '[Police officer] Oh, really? You little liar! Give me one
+    reason not to whoop your ass right now!'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Yeah, yeah, I know, officer! Imma just a piece of crap. Pls,
@@ -23,15 +23,15 @@ MonoBehaviour:
     defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
-  - dialogueOptionText: Just take the bike! Supposed to give it as a present for
-      my nephes's birthday, but... He doesn't deserve it anyway.
+  - dialogueOptionText: '[Damn he didn''t buy it, try to offer him some more joints
+      from high school students]'
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 69f53ce793f75c440825fd333bc4c4a5, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Fuck You! You don't wanna play with a guy like me!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 69f53ce793f75c440825fd333bc4c4a5, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Try to run away.
