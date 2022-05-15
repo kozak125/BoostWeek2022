@@ -20,6 +20,9 @@ MonoBehaviour:
   - dialogueOptionText: Run even quicker!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: e5bdf2192d3e35243b06dea024a58a93, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: b74b06cf6dcc76a4ca4b07e19981a5c0, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 2779828a77633c14295d23a8a868a312, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

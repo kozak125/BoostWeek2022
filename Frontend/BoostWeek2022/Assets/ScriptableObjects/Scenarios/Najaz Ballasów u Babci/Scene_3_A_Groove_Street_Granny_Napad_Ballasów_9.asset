@@ -20,6 +20,9 @@ MonoBehaviour:
   - dialogueOptionText: Enjoy Grove Street's view
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6875c8ddaeccdb84e87e873b6d86ca95, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: a2369694a3c96374c9cf701bdf6c8798, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: b2ac61c8396789d4c90cba6f651ec6eb, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

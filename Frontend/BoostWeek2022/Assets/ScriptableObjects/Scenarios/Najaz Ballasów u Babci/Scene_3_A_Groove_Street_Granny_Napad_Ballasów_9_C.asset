@@ -20,6 +20,9 @@ MonoBehaviour:
   - dialogueOptionText: Check what's vibrating
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 2f7e962e99a54754cae0ad04a7e5da0c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: b36261a715c574f47871975f3f5702e3, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: f907dd6f8780c01488213a0108572605, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
