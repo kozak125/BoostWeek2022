@@ -10,16 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_10_A_HEAVEN_3_FINAL_ROUND_POSITIVE
+  m_Name: SZPITAL_POCZATEK_GRY_3
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: 2da2be071affd324a82139a58a388b83, type: 3}
-  scenarioDescription: The best way to guarantee a loss is to quit. Do you want to
-    finally wake up?
+  scenarioImage: {fileID: 0}
+  scenarioDescription: 
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: I just wanna wake up...
+  - dialogueOptionText: 
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: f029c9c0ac04856489b029a378e5dbcd, type: 2}
+    defaulScenario: {fileID: 0}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}

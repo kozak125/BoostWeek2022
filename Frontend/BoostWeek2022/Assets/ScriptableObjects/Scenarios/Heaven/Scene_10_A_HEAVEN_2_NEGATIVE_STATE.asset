@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_10_A_HEAVEN_2_NEGATIVE_STATE
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 2da2be071affd324a82139a58a388b83, type: 3}
   scenarioDescription: You are never too old to dream a new dream. What's a new dream
     means to you?
   scenarioDescriptionFormat: {fileID: 0}
@@ -20,15 +20,20 @@ MonoBehaviour:
   - dialogueOptionText: It means that the old is forgotten and I can start over.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 75b4c16e3a17b1140ae593ea622cac58, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Not to wake up every f*cking time in the same bed in the
       same hospital!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 08bda21ed7aca564e8424a6f530a702d, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: I don't remember any dreams.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 08bda21ed7aca564e8424a6f530a702d, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

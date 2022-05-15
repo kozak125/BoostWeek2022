@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_10_A_HEAVEN_3_FINAL_ROUND_NEGATIVE
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 2da2be071affd324a82139a58a388b83, type: 3}
   scenarioDescription: The best way to guarantee a loss is to quit. Do you want to
     finally wake up?
   scenarioDescriptionFormat: {fileID: 0}
@@ -20,6 +20,9 @@ MonoBehaviour:
   - dialogueOptionText: Who t*f are you? I'm not even dreaming, dude, I'm just drunk!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6fd77dd05bf0719468d1450400dcb8d6, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
