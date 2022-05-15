@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_9_A_PARK_3_YODA_5
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 119c1c861f514604081f44a8ee68ffa2, type: 3}
   scenarioDescription: Powerful you have become, the dark side I sense in you.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
@@ -20,19 +20,23 @@ MonoBehaviour:
       hearing and nothing I can sense right now from them.'
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Are you a professional moron, or just a gifted amateur?
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Homey, what you on? Whatever it is, you need to reduce the
       dosage!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Wait, am I dreaming?
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: fd22e83a5eaa96c4b863a9a2343ce6c9, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}
   scenarioMusic: {fileID: 0}

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_9_A_PARK_3_YODA_8_OUTRO_1
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 119c1c861f514604081f44a8ee68ffa2, type: 3}
   scenarioDescription: '*Yoda does some magic hand thing and says* May the force
     be with you.'
   scenarioDescriptionFormat: {fileID: 0}
@@ -20,6 +20,9 @@ MonoBehaviour:
   - dialogueOptionText: Close your eyes
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 54432b3d30d95454b9782e504e232389, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
