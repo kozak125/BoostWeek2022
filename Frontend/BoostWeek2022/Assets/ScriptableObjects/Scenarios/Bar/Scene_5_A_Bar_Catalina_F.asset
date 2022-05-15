@@ -22,7 +22,7 @@ MonoBehaviour:
   - dialogueOptionText: You mean Big Smoke? Hell no! Mates over dates - no way I'm
       gonna...
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    defaulScenario: {fileID: 11400000, guid: e7ca742ad7bfdc047a6b43cb679e44d4, type: 2}
     soundEffect: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
     conditionalBranches: []
   - dialogueOptionText: Ok babe, Imma commit to our common cause.
