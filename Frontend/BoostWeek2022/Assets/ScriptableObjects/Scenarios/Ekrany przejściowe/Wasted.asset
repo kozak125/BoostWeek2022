@@ -57,7 +57,7 @@ MonoBehaviour:
       minimalViableValue: 6
       maxViableValue: 999
       onlyCheckCondition: 0
-  scenarioMusicGroup: {fileID: 0}
-  scenarioMusic: {fileID: 0}
+  scenarioMusicGroup: {fileID: 11400000, guid: 813de93899e4c7b47a5bea05fec2d162, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 1
