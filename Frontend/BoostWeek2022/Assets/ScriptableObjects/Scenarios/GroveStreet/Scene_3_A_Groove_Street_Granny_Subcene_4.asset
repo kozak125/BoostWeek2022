@@ -20,6 +20,7 @@ MonoBehaviour:
       grandma a hug and go out'
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 7f49a6c987ef49d46bca0576e6cdd95f, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -27,5 +28,7 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 5
       onlyCheckCondition: 0
+  scenarioMusicGroup: {fileID: 11400000, guid: 93de9db0b371dd34baaad7cf1bece8c2, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 31c05bf42a6906c4ca375ef3c5a64dd2, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

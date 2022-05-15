@@ -21,14 +21,19 @@ MonoBehaviour:
   - dialogueOptionText: Drink 1 Tequila shot
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 70d5b9c6308726b42a38d0ad13675565, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Drink 4 Tequila shots and whole glass of whiskey at once
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 4c0cc3119436f7b44977e700cc634751, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Drink 4 shots of Tequila and order 8 more
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

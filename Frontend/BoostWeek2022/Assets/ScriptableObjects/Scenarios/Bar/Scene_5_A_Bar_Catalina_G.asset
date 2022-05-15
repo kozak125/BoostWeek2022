@@ -23,6 +23,6 @@ MonoBehaviour:
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
-  scenarioMusic: {fileID: 0}
+  scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
