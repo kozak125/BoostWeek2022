@@ -19,12 +19,12 @@ MonoBehaviour:
   - dialogueOptionText: Hide behind the corner and plug your ears
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
     conditionalBranches: []
   - dialogueOptionText: Take the Winchester and tell Granny to hide
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 3bac55c81b1ebc24cb135f3d557066c1, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: b74b06cf6dcc76a4ca4b07e19981a5c0, type: 2}
   scenarioMusic: {fileID: 8300000, guid: 2779828a77633c14295d23a8a868a312, type: 3}

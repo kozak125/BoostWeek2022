@@ -20,22 +20,22 @@ MonoBehaviour:
   - dialogueOptionText: Finally waking up
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 27a5f42dc79cf2d48b3a9cdd2585023d, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   - dialogueOptionText: That all I had to do was to follow the damn train
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 27a5f42dc79cf2d48b3a9cdd2585023d, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   - dialogueOptionText: More Tequilas
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: c65253e9978f18c45a6e8696b81fa9c9, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   - dialogueOptionText: Getting back to Grove Street
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: c65253e9978f18c45a6e8696b81fa9c9, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: 58ed34a8c83921f459eb54973040236c, type: 2}
   scenarioMusic: {fileID: 8300000, guid: b0cf7aa3d2fb2dd43a7afea8ebaaf3a0, type: 3}
