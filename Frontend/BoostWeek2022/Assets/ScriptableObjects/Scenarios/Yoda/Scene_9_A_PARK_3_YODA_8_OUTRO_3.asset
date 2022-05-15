@@ -19,6 +19,9 @@ MonoBehaviour:
   - dialogueOptionText: Open the eyes
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: c195f47e98a5ace40b2cea2aba7dfeef, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: 58ed34a8c83921f459eb54973040236c, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: b0cf7aa3d2fb2dd43a7afea8ebaaf3a0, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

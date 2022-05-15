@@ -19,10 +19,14 @@ MonoBehaviour:
   - dialogueOptionText: Run!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 36349327f65be3b40acb8fc60659f5c4, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Give up
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 36349327f65be3b40acb8fc60659f5c4, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: 6af2f399a77e93349b8db362d709ff83, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 0ccfe79a36109bf4f88e71e82a7e5273, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

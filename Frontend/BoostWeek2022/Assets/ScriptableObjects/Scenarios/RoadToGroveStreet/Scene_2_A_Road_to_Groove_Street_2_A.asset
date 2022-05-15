@@ -23,10 +23,14 @@ MonoBehaviour:
   - dialogueOptionText: Turn right
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 759fb6530b668b644849e410eee2dab7, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Turn left
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 69a0bb80c61489a41afe42ee0d783da5, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: a2369694a3c96374c9cf701bdf6c8798, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: b2ac61c8396789d4c90cba6f651ec6eb, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

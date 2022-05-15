@@ -19,14 +19,19 @@ MonoBehaviour:
   - dialogueOptionText: Take a cab but do not pay
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 17c5804f5a47f7c45b8380473bff5d47, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Go by foot
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 597827d47a355dd42a725cc72c069e4e, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Steal a bike
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 94f7e582f112fc44e91ff17628b6db48, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: a2369694a3c96374c9cf701bdf6c8798, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: b2ac61c8396789d4c90cba6f651ec6eb, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

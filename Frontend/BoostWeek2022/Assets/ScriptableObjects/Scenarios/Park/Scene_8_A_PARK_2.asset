@@ -20,20 +20,24 @@ MonoBehaviour:
   - dialogueOptionText: Go left
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Go right
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 759fb6530b668b644849e410eee2dab7, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Go back
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 69a0bb80c61489a41afe42ee0d783da5, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Go straight
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: d246bc312a419084b9767e33cd880a06, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
-  scenarioMusicGroup: {fileID: 0}
-  scenarioMusic: {fileID: 0}
+  scenarioMusicGroup: {fileID: 11400000, guid: b74b06cf6dcc76a4ca4b07e19981a5c0, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 2779828a77633c14295d23a8a868a312, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

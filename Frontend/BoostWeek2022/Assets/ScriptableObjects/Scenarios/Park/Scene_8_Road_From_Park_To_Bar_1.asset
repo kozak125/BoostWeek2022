@@ -20,8 +20,9 @@ MonoBehaviour:
   - dialogueOptionText: Come to the entrance
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 90d1c2b865591fc4aa844ed7e608070d, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
-  scenarioMusicGroup: {fileID: 0}
-  scenarioMusic: {fileID: 0}
+  scenarioMusicGroup: {fileID: 11400000, guid: b607511a897abc940a8651d362c650be, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: f622bbcaaabb35f47ad5cac335a6deaa, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

@@ -21,7 +21,7 @@ MonoBehaviour:
     defaulScenario: {fileID: 0}
     soundEffect: {fileID: 0}
     conditionalBranches: []
-  scenarioMusicGroup: {fileID: 11400000, guid: 2242db02cb8ba3f44bd082176437f138, type: 2}
-  scenarioMusic: {fileID: 8300000, guid: e188877cfa8939a41ae2ec3efe01f7a9, type: 3}
+  scenarioMusicGroup: {fileID: 11400000, guid: 7fa79905662818049baef07688164d9f, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: d5930c8de78f9f941b8eadb2e001f600, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
