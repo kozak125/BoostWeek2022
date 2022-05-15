@@ -19,12 +19,12 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Come on baby light my fire! [Tease her.]
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    defaulScenario: {fileID: 11400000, guid: c86f871fe7ab78341b303017e2debf5d, type: 2}
     soundEffect: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
     conditionalBranches: []
   - dialogueOptionText: Ok baby, I'm sorry, let me explain. [Comfort her.]
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6d567b7dee864394ab39cf275f1bd1da, type: 2}
     soundEffect: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
     conditionalBranches: []
   - dialogueOptionText: '[Break a leg, to avoid confrontation.]'
