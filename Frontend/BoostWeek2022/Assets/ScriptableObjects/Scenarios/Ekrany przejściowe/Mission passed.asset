@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Mission passed
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: ceca0d83aee8ce9469aa713334c25ce9, type: 3}
   scenarioDescription: 
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions: []
-  scenarioMusicGroup: {fileID: 0}
-  scenarioMusic: {fileID: 0}
+  scenarioMusicGroup: {fileID: 11400000, guid: 813de93899e4c7b47a5bea05fec2d162, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 3973892ab5006b64e82eb5e6e64808b8, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
