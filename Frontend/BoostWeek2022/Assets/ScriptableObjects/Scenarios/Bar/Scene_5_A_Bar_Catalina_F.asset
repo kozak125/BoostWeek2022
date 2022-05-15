@@ -25,9 +25,9 @@ MonoBehaviour:
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
-  - dialogueOptionText: Ok baby, I will commit for our common cause.
+  - dialogueOptionText: Ok babe, Imma commit to our common cause.
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000}
+    defaulScenario: {fileID: 11400000, guid: 70d5b9c6308726b42a38d0ad13675565, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}

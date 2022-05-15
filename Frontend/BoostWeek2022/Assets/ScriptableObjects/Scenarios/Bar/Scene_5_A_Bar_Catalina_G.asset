@@ -17,9 +17,14 @@ MonoBehaviour:
     to your senses! See you later on a dinner at Granny!'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: See you, babe!
+  - dialogueOptionText: See you, babe! [Go to Granny earlier]
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 46c90475373feed42a11ea24d1fcb3b3, type: 2}
+    soundEffect: {fileID: 0}
+    conditionalBranches: []
+  - dialogueOptionText: Maybe next time! [Stay at the bar]
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}

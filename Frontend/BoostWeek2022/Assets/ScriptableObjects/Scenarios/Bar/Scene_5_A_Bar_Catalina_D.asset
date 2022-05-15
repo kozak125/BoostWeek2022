@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Scene_5_A_Bar_Catalina_D
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 1392b0f3e3bbee6469215069c5f4202b, type: 3}
-  scenarioDescription: '[Catalina] Oh Mr. Johnson, you''re such a man. You remember
+  scenarioDescription: '[Catalina] Oh, Mr. Johnson, you''re such a man. You remember
     that time back in the cabin...? In the woods..? I was on top of the world and
     now I''m eating for two...'
   scenarioDescriptionFormat: {fileID: 0}

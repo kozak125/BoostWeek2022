@@ -16,9 +16,12 @@ MonoBehaviour:
   scenarioDescription: Fuck this dude, I'm done with him. Dates over mates.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Let's approach that nice girl in the bar!
+  - dialogueOptionText: Approach your date!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 1245f0bd72804ce4a9d7b028bc9b2f76, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 3ea64bf728be51349955d90537480f8e, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
