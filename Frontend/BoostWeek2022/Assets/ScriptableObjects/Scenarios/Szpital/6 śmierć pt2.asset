@@ -13,12 +13,15 @@ MonoBehaviour:
   m_Name: "6 \u015Bmier\u0107 pt2"
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
-  scenarioDescription: Yeah, that's all I need right now.
+  scenarioDescription: '[CJ] Yeah, that''s all I need right now.'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Let's go then!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

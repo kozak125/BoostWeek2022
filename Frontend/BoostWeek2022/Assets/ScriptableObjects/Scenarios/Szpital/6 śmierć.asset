@@ -13,16 +13,18 @@ MonoBehaviour:
   m_Name: "6 \u015Bmier\u0107"
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
-  scenarioDescription: Ah shit! No, no, no.
+  scenarioDescription: '[CJ] Ah shit! No, no, no.'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Hey! Why not to transport directly to the bar?
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: a64be6834bdb165468abf111d7ff4084, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Check what's happening on Grove Street
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}
   scenarioMusic: {fileID: 0}

@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: "4 \u015Amier\u0107 pt2"
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
-  scenarioDescription: It drives me MAAAD as hell! C'ant take it anymore! Well, gotta
-    go...
+  scenarioDescription: '[CJ] It drives me MAAAD as hell! C''ant take it anymore!
+    Well, gotta go...'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Check what's happening on Grove Street
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6a843e3d92cb7fe47b9276ba4db19e54, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
