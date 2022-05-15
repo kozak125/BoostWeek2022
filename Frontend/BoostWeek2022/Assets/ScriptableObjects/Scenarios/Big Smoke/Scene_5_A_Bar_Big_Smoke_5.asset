@@ -21,10 +21,14 @@ MonoBehaviour:
       *chlip*  you Michelin-like lookin peasant"'
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Get another sip. Screw it man... *chlip* I feel like floating...
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 4a743619ed77f074a90ecc9f94c9769e, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

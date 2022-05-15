@@ -20,6 +20,7 @@ MonoBehaviour:
   - dialogueOptionText: Get arrested
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6721b1e4095c46749a4fdee35f2aef95, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -32,10 +33,14 @@ MonoBehaviour:
       how and where.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Tell there's an emergency and you have to visit your Granny
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 46c90475373feed42a11ea24d1fcb3b3, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: 6af2f399a77e93349b8db362d709ff83, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 0ccfe79a36109bf4f88e71e82a7e5273, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

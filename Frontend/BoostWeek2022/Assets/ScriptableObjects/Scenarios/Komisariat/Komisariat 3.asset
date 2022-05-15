@@ -21,19 +21,25 @@ MonoBehaviour:
       just let me go!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Just take the bike! Supposed to give it as a present for
       my nephes's birthday, but... He doesn't deserve it anyway.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Fuck You! You don't wanna play with a guy like me!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Try to run away.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: e062174ec3d7cb64f8c2f56ce2f219aa, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ed4a732024f594946af22dfaf22fd99c, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 012125c72982abf47a0a4f4b823b12b5, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

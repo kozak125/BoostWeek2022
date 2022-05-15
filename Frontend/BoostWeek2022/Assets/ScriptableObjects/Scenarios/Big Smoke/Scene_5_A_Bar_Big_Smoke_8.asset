@@ -21,11 +21,15 @@ MonoBehaviour:
   - dialogueOptionText: I cannot resist no more. Float away and let the control go.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: bb9d55a11901a0d40960b339cc925217, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Try to maintain awareness by breaking glass and cutting your
       hand
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: d35747a05b49297418a3903549abb3db, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
