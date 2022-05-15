@@ -21,14 +21,19 @@ MonoBehaviour:
   - dialogueOptionText: Take a high five with Big Smoke
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 2ce0971bac851294784cf86afa8c6dc5, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Try to hit on a girl
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: aff722c55d9a9bb46887deee9472c849, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Ask mysterious man for coke
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: cc3cb81d4dddb454385c1e6688df2c0e, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

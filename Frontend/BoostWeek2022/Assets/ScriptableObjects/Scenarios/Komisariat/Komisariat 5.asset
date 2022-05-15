@@ -21,20 +21,26 @@ MonoBehaviour:
   - dialogueOptionText: 'I ain''t talkin to cops, do what''ya want and f* off '
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 69f53ce793f75c440825fd333bc4c4a5, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Yeah, yeah, I know, officer! Imma just a piece of crap. Pls,
       just let me go!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 056465dfbd81f7a4a9c993661cfcd89e, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Yo yo yo, one highschool guy gave that joint to me and said
       it's just a cigg... That m*f* tricked me!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 66371aad4445bb941a9a9f01ddcd29fb, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Ouuu you touch my tralala. Wink at him.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ed4a732024f594946af22dfaf22fd99c, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 012125c72982abf47a0a4f4b823b12b5, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

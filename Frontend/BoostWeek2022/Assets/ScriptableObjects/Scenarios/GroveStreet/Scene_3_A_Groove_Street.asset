@@ -19,10 +19,12 @@ MonoBehaviour:
   - dialogueOptionText: Sit on the curb, fire up the joint and enjoy the view
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 4ccfaed52a062fb4f8e9c843f28c85bf, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Visit your Granny
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 46c90475373feed42a11ea24d1fcb3b3, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches:
     - branch: {fileID: 0}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -30,7 +32,7 @@ MonoBehaviour:
       minimalViableValue: 1
       maxViableValue: 5
       onlyCheckCondition: 0
-  scenarioMusicGroup: {fileID: 0}
-  scenarioMusic: {fileID: 0}
+  scenarioMusicGroup: {fileID: 11400000, guid: a2369694a3c96374c9cf701bdf6c8798, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: b2ac61c8396789d4c90cba6f651ec6eb, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

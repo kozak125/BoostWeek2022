@@ -19,10 +19,14 @@ MonoBehaviour:
   - dialogueOptionText: Breathe in and come in
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 036216405ca546b488e1ac345162584d, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Go to the back entrance
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 0962dc5c4cc47884db89d9e713a75321, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

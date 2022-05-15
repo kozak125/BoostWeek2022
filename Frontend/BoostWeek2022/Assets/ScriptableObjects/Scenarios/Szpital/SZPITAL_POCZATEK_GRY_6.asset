@@ -19,7 +19,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Close your eyes... again
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 54a01d74a5fe45746b2526028385f3bb, type: 2}
+    defaulScenario: {fileID: 11400000, guid: cab35cb34aa8f874b8e1552ec0479233, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}

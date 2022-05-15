@@ -22,11 +22,15 @@ MonoBehaviour:
       you know that it doesn''t matter to me and I can''t wait for the date!'
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 0f530dc0c1227e544863f70fad138e10, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: 'Try to escape the inevitable: You know what, I think that
       I left the oven running'
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

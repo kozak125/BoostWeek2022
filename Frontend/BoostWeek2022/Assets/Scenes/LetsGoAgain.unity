@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenarioManager: {fileID: 2004597618}
-  scenarioDefinition: {fileID: 11400000, guid: cab35cb34aa8f874b8e1552ec0479233, type: 2}
+  scenarioDefinition: {fileID: 11400000, guid: 961f6f40263646d40851e0a526bd89e7, type: 2}
 --- !u!114 &827071368
 MonoBehaviour:
   m_ObjectHideFlags: 0
