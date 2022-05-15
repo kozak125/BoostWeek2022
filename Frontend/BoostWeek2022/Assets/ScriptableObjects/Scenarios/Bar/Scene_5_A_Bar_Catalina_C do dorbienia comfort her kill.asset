@@ -10,28 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_5_A_Bar_Catalina_B
+  m_Name: Scene_5_A_Bar_Catalina_C do dorbienia comfort her kill
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 21300000, guid: 1392b0f3e3bbee6469215069c5f4202b, type: 3}
   scenarioDescription: '[Catalina] Ohoho I see you a funny boy, huh? Just like I
     remember you. Come closer handsome. I''ve got great news for you.'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: What news? That you have a twin sister who is actually sound
-      of mind?
+  - dialogueOptionText: '[Break her heart]: Do I look like some Papa to You? Go find
+      another loser to look after Your kid, b*!'
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 70d5b9c6308726b42a38d0ad13675565, type: 2}
     soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
-    conditionalBranches: []
-  - dialogueOptionText: 'Bring it already, somebody is waiting for me. '
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
-    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
-    conditionalBranches: []
-  - dialogueOptionText: 'Do I know you? '
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 87891315ba3d43641ad5c331cea930ad, type: 2}
-    soundEffect: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
   scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}

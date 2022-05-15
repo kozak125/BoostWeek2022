@@ -19,7 +19,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: You want some of my ice babe? [Ask if she wants coke]
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 5031b2b8959733a41b561270906f4a9e, type: 2}
     soundEffect: {fileID: 8300000, guid: e8abea6bd5d9ad44698c5e5dc35544e2, type: 3}
     conditionalBranches: []
   - dialogueOptionText: Girl, I don't want to buy your pottery, leave me alone. [Look
