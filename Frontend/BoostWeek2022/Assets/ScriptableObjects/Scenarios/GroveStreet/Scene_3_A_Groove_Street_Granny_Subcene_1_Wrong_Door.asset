@@ -10,26 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
-  m_Name: Scene_3_A_Groove_Street_Granny_Subcene_1
+  m_Name: Scene_3_A_Groove_Street_Granny_Subcene_1_Wrong_Door
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: da78a92734c144c4ca944f504b5113ff, type: 3}
-  scenarioDescription: Grove Street. Home.
+  scenarioImage: {fileID: 21300000, guid: 7bfa08a75f00ec943b074dbcfc8303b6, type: 3}
+  scenarioDescription: You picked the wrong house fool!
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Knock on the door for the house number 6
+  - dialogueOptionText: Cry and die
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 5b2fce388325e5d478145c19fc733b29, type: 2}
-    soundEffect: {fileID: 0}
-    conditionalBranches:
-    - branch: {fileID: 0}
-      conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
-        type: 2}
-      minimalViableValue: 1
-      maxViableValue: 5
-      onlyCheckCondition: 0
-  - dialogueOptionText: Knock on the door for the house number 9
-    dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: d41476187426ebc4e98e952a620081ca, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches:
     - branch: {fileID: 0}
