@@ -20,13 +20,13 @@ MonoBehaviour:
       more shots.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 4c0cc3119436f7b44977e700cc634751, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   - dialogueOptionText: Pour the glass over Big Smoke's face and say that your'e
       done with him.
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6b62ee32e6c0b134582fa2e1ea27ad42, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
   scenarioMusic: {fileID: 8300000, guid: 220d57da165d51c43ae4be80c97a0683, type: 3}

@@ -19,7 +19,7 @@ MonoBehaviour:
   - dialogueOptionText: Approach your date!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 3ea64bf728be51349955d90537480f8e, type: 2}
-    soundEffect: {fileID: 0}
+    soundEffect: {fileID: 8300000, guid: 2a0d2ffab2ebd3e4882038eb891f836b, type: 3}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}
   scenarioMusic: {fileID: 0}
