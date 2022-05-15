@@ -19,7 +19,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Get arrested
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 6721b1e4095c46749a4fdee35f2aef95, type: 2}
+    defaulScenario: {fileID: 11400000, guid: 4ccfaed52a062fb4f8e9c843f28c85bf, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches:
     - branch: {fileID: 0}
