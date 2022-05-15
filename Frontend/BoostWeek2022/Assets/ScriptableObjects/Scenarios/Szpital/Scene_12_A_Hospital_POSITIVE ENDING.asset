@@ -18,7 +18,7 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Finally wake up
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 75656fa58325a944ba176ff5a0b059bb, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: 7fa79905662818049baef07688164d9f, type: 2}
