@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_13_A_Hospital_NEGATIVE_ENDING
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 21300000, guid: dc2444917a885e14284843f322789859, type: 3}
+  scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
   scenarioDescription: You will never stop dreaming, never!
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: Ah shit here we dream again wake up
+  - dialogueOptionText: Ah shit here we dream again. [Wake up]
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

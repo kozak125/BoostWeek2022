@@ -29,9 +29,11 @@ MonoBehaviour:
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: c65253e9978f18c45a6e8696b81fa9c9, type: 2}
     conditionalBranches: []
-  - dialogueOptionText: Getting back to Groove Street
+  - dialogueOptionText: Getting back to Grove Street
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: c65253e9978f18c45a6e8696b81fa9c9, type: 2}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0
