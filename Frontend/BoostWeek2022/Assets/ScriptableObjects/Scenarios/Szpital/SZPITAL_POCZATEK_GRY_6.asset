@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: SZPITAL_POCZATEK_GRY_6
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
-  scenarioDescription: 
+  scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
+  scenarioDescription: Ah shit, was that a fever dreaming? If so, it ain't cool!
+    Ah no, it's happening again...
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: 
+  - dialogueOptionText: Close your eyes... again
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 54a01d74a5fe45746b2526028385f3bb, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}

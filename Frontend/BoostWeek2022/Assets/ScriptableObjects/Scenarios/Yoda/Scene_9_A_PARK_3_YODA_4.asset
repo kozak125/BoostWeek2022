@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_9_A_PARK_3_YODA_4
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 119c1c861f514604081f44a8ee68ffa2, type: 3}
   scenarioDescription: Death is a natural part of life. Rejoice for those around
     you who transform into the Force. Mourn them do not. Miss them do not. Attachment
     leads to jealously. The shadow of greed, that is.
@@ -21,22 +21,29 @@ MonoBehaviour:
   - dialogueOptionText: Fishing Clash
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Hunting Clash
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Flip This House
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 88d5a301f00c9f0458fb0d4c93427e21, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Undead Clash
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Let's Fish
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 1f5ae7b347face445b80d8aaf9b8823a, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

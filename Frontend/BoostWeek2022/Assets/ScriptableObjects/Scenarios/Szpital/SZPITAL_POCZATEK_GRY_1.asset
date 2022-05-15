@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: SZPITAL_POCZATEK_GRY_1
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
-  scenarioDescription: 
+  scenarioImage: {fileID: 21300000, guid: 3db1849eef2fbb84c9a7317729739f70, type: 3}
+  scenarioDescription: '*CJ Yawning* What.. wait, where the fuck I am? Why I''m wearing
+    bandages?'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: 
+  - dialogueOptionText: Anybody there? Yo, nurse!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 44fff029eb1d2ef4690086d0082f3513, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}

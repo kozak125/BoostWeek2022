@@ -12,17 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_9_A_PARK_3_YODA_6_Failure 1
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 119c1c861f514604081f44a8ee68ffa2, type: 3}
   scenarioDescription: The greatest teacher, failure is.
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: Try again
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: fbad81525d30af94d9c3e34942d5a635, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: I need this more than you I think!
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

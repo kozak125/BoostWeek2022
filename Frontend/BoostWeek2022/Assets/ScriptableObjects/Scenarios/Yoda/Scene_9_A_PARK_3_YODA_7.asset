@@ -12,25 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: Scene_9_A_PARK_3_YODA_7
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
+  scenarioImage: {fileID: 21300000, guid: 119c1c861f514604081f44a8ee68ffa2, type: 3}
   scenarioDescription: CJ, there is another Dre- Dream... Pass on what you have learned
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
   - dialogueOptionText: What do you mean?
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Pass me the beer, I'll pass what I've learned, Master Yoda
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: May the Los Santos be with you
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: Wtf? I'm so drunk that I'm literally seeing Yoda right now
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 73c70d7d46bab4c46a38bc2bb5779a53, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

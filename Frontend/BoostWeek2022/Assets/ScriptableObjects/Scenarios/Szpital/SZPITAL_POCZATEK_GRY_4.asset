@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfb1e61d8a0004a4fab87fc0d23062b6, type: 3}
   m_Name: SZPITAL_POCZATEK_GRY_4
   m_EditorClassIdentifier: 
-  scenarioImage: {fileID: 0}
-  scenarioDescription: 
+  scenarioImage: {fileID: 21300000, guid: 96933748cb9ecd64ab8d0a03896744a8, type: 3}
+  scenarioDescription: '*The sound of a puffed cigar and a mysterious gentleman voice*
+    Until he''s alive, I don''t care about his "condition".'
   scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions:
-  - dialogueOptionText: 
+  - dialogueOptionText: Wtf condition?!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 8c8a917113b12224887a4b0b40d30455, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
   scenarioMusicGroup: {fileID: 0}
