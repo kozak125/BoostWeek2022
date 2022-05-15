@@ -23,7 +23,7 @@ MonoBehaviour:
     defaulScenario: {fileID: 11400000, guid: 19c95ef78e0990845a16744bc24d31f9, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
-  - dialogueOptionText: 'Pretend like you didn''t hear it and look on your phone:
+  - dialogueOptionText: '[Pretend like you didn''t hear it and look on your phone]:
       Oh a new message on Slack...'
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: f895c90646b3b654d940b9c292b47d18, type: 2}
