@@ -21,16 +21,19 @@ MonoBehaviour:
       of mind?
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: 'Bring it already, somebody is waiting for me. '
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 86555baf485fc7047b936e965daa58ca, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
   - dialogueOptionText: 'Do I know you? '
     dialogueOptionFormat: {fileID: 0}
     defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches: []
-  scenarioMusicGroup: {fileID: 0}
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
   scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

@@ -22,7 +22,7 @@ MonoBehaviour:
     defaulScenario: {fileID: 11400000, guid: 6b1a8b7fdfb25c244b7a44525da8aea6, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
-  scenarioMusicGroup: {fileID: 0}
-  scenarioMusic: {fileID: 0}
+  scenarioMusicGroup: {fileID: 11400000, guid: 2242db02cb8ba3f44bd082176437f138, type: 2}
+  scenarioMusic: {fileID: 8300000, guid: e188877cfa8939a41ae2ec3efe01f7a9, type: 3}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

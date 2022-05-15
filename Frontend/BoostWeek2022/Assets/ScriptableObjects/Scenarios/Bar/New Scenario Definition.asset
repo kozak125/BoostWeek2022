@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scenarioImage: {fileID: 0}
   scenarioDescription: 
+  scenarioDescriptionFormat: {fileID: 0}
   dialogueOptions: []
+  scenarioMusicGroup: {fileID: 11400000, guid: ff99c32d834e81d4bb1661fe81616daf, type: 2}
+  scenarioMusic: {fileID: 0}
+  scenarioConditionToTrack: {fileID: 0}
   isEnding: 0

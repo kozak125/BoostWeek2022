@@ -18,7 +18,8 @@ MonoBehaviour:
   dialogueOptions:
   - dialogueOptionText: Wake up CJ!
     dialogueOptionFormat: {fileID: 0}
-    defaulScenario: {fileID: 11400000, guid: 40bded1b29e6fb34084ad858b6430f47, type: 2}
+    defaulScenario: {fileID: 11400000, guid: cab35cb34aa8f874b8e1552ec0479233, type: 2}
+    soundEffect: {fileID: 0}
     conditionalBranches:
     - branch: {fileID: 11400000, guid: b330789965469d7488555fd7a024ab4d, type: 2}
       conditionForBranch: {fileID: 11400000, guid: 4ea999265c43c6741aa272a18efdf713,
@@ -56,5 +57,7 @@ MonoBehaviour:
       minimalViableValue: 6
       maxViableValue: 999
       onlyCheckCondition: 0
+  scenarioMusicGroup: {fileID: 0}
+  scenarioMusic: {fileID: 0}
   scenarioConditionToTrack: {fileID: 0}
   isEnding: 1
