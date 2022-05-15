@@ -28,6 +28,11 @@ MonoBehaviour:
     defaulScenario: {fileID: 11400000, guid: 597827d47a355dd42a725cc72c069e4e, type: 2}
     soundEffect: {fileID: 0}
     conditionalBranches: []
+  - dialogueOptionText: Attempt to do a backflip from the nearby bench
+    dialogueOptionFormat: {fileID: 0}
+    defaulScenario: {fileID: 11400000, guid: 6aeb32c5241de3f469d4d5de9a5ae70c, type: 2}
+    soundEffect: {fileID: 0}
+    conditionalBranches: []
   scenarioMusicGroup: {fileID: 11400000, guid: b607511a897abc940a8651d362c650be, type: 2}
   scenarioMusic: {fileID: 8300000, guid: f622bbcaaabb35f47ad5cac335a6deaa, type: 3}
   scenarioConditionToTrack: {fileID: 0}
